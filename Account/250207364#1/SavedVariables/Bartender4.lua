@@ -1080,8 +1080,8 @@ Bartender4DB = {
 							},
 						}, -- [4]
 						{
-							["padding"] = 5,
 							["rows"] = 3,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 156.5217225688684,
@@ -2748,20 +2748,20 @@ Bartender4DB = {
 			["outofrange"] = "hotkey",
 		},
 		["Thewhitefang - Aman'Thul"] = {
-			["snapping"] = false,
+			["focuscastmodifier"] = false,
 			["minimapIcon"] = {
 				["minimapPos"] = 247.217838916525,
 			},
 			["buttonlock"] = true,
 			["blizzardVehicle"] = true,
-			["focuscastmodifier"] = false,
+			["snapping"] = false,
 			["outofrange"] = "hotkey",
 		},
 		["Fangshotya - Aman'Thul"] = {
 			["blizzardVehicle"] = true,
-			["snapping"] = false,
-			["buttonlock"] = true,
 			["focuscastmodifier"] = false,
+			["buttonlock"] = true,
+			["snapping"] = false,
 			["minimapIcon"] = {
 				["minimapPos"] = 247.217838916525,
 			},

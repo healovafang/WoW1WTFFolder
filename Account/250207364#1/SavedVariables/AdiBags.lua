@@ -18,8 +18,6 @@ AdiBagsDB = {
 		},
 		["MoneyFrame"] = {
 		},
-		["ItemSets"] = {
-		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -62,6 +60,8 @@ AdiBagsDB = {
 			},
 		},
 		["DataSource"] = {
+		},
+		["ItemSets"] = {
 		},
 		["Junk"] = {
 		},

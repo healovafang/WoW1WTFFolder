@@ -288,7 +288,11 @@ DBM_AllSavedOptions = {
 		["DontRestoreRange"] = false,
 		["SpecialWarningFlashCount3"] = 3,
 		["SpecialWarningFlashRepeat3"] = true,
-		["ShowAdvSWSound"] = true,
+		["SpecialWarningFontColor"] = {
+			-0, -- [1]
+			-0, -- [2]
+			1, -- [3]
+		},
 		["WhisperStats"] = false,
 		["VoiceOverSpecW2"] = "None",
 		["LogOnlyNonTrivial"] = true,
@@ -298,7 +302,7 @@ DBM_AllSavedOptions = {
 		["HealthFrameWidth"] = 200,
 		["HUDAlphaOverride"] = false,
 		["ShowEngageMessage"] = true,
-		["RangeFrameSound1"] = "none",
+		["ShowAdvSWSound"] = true,
 		["HPFrameY"] = 49.9999885559082,
 		["WarningFontSize"] = 20,
 		["EventSoundVictory2"] = "None",
@@ -330,11 +334,7 @@ DBM_AllSavedOptions = {
 		["DontShowRangeFrame"] = false,
 		["DontShowBossAnnounces"] = false,
 		["FilterTankSpec"] = true,
-		["SpecialWarningFontColor"] = {
-			-0, -- [1]
-			-0, -- [2]
-			1, -- [3]
-		},
+		["RangeFrameSound1"] = "none",
 		["VoiceOverSpecW"] = false,
 		["WarningDuration"] = 4,
 		["PTCountThreshold"] = 5,
