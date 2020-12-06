@@ -1,0 +1,13 @@
+VER 3 0100000000000001 "Charge" "INV_MISC_QUESTIONMARK"
+#showtooltip Charge
+/cast [@mouseover,harm,nodead][@target] Charge
+/target [@mouseover, harm, nodead] mouseover
+END
+VER 3 0100000000000002 "Execute" "INV_MISC_QUESTIONMARK"
+#showtooltip Execute
+/cast [@mouseover,harm,nodead] Execute; [@target] Execute
+END
+VER 3 0100000000000003 "Heroic Leap" "INV_MISC_QUESTIONMARK"
+#showtooltip Heroic leap
+/cast [@cursor] Heroic Leap
+END

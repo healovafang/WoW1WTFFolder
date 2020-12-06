@@ -1,0 +1,117 @@
+VER 3 0000000000000061 "ActionMouseOver" "SPELL_SHADOW_ANTISHADOW"
+/target mouseover
+/click ExtraActionButton1
+/targetlasttarget
+END
+VER 3 0000000000000054 "BoP" "Spell_Arcane_PortalTheramore"
+/cancelaura hand of protection
+END
+VER 3 0000000000000049 "ClickYes" "132696"
+/click StaticPopup1Button1
+END
+VER 3 000000000000005D "ExtraActionButto" "SPELL_SHADOW_ANTISHADOW"
+/click ExtraActionButton1
+END
+VER 3 000000000000004F "FeralSpec" "SPELL_DRUID_DISPLACEMENT"
+/click DropDownList2Button3
+END
+VER 3 0000000000000010 "Greater Heal" "Spell_Holy_GreaterHeal"
+#showtooltip greater heal
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] greater heal
+END
+VER 3 000000000000007B "Judgement" "INV_MISC_QUESTIONMARK"
+#showtooltip judgment
+/cast [@mouseover,harm][@target,harm] Judgment
+END
+VER 3 0000000000000064 "Naked BElf" "Spell_Fire_Burnout"
+/use Kalytha's haunted locket
+/use Moroes' famous polish
+/use orb of the sin'dorei
+/cancelaura Kalytha's Haunted Locket
+END
+VER 3 000000000000007C "NO HEAL ME" "644389"
+/cancelaura Glimmer of Light
+END
+VER 3 0000000000000077 "Org HV1" "134328"
+/way 50,6 70,75
+/way 52,96 77,07
+/way 49,53 76,89
+/way 48,19 77,61
+/way 46,92 74,9
+/way 34,74 63,25
+/way 32,4 69,09
+/way 35,55 69,27
+/way 34,93 75,46
+/way 35,76 78,89
+/way 39,38 80,38
+/way 37,52 84,93
+/way 57,11 62,73
+/way 56,91 58,17
+/way 57,41 56,4
+END
+VER 3 0000000000000078 "Org HV2" "134328"
+/way 60,74 58,06
+/way 60,17 56,38
+/way 60,98 52,54
+/way 57,55 49,61
+/way 42,6 49,71
+/way 45,19 53,52
+/way 48,47 48,97
+/way 48,87 46,17
+/way 39,47 47,27
+/way 46,89 51,1
+/way 41,22 49,94
+/way 69,16 48,58
+/way 69,38 45,72
+/way 66,76 39,3
+/way 66,28 31,41
+END
+VER 3 0000000000000063 "PullCancel" "SPELL_SHADOW_ANTISHADOW"
+/rw Cancelled
+/dbm pull 0
+END
+VER 3 0000000000000029 "purify" "INV_MISC_QUESTIONMARK"
+#showtooltip purify
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] purify
+END
+VER 3 0000000000000040 "QUEST" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
+/script SelectGossipAvailableQuest(1) 
+/script AcceptQuest()
+/script GetQuestReward(1) 
+END
+VER 3 000000000000007D "Rare Announce" "132366"
+/run a=UnitName('target');b=C_Map;c='player';d=b.GetBestMapForUnit(c);e=b.GetPlayerMapPosition(d,c);b.SetUserWaypoint(UiMapPoint.CreateFromCoordinates(d,e.x,e.y));SendChatMessage(a..' at '..b.GetUserWaypointHyperlink(),'CHANNEL',_,1);b.ClearUserWaypoint()
+END
+VER 3 0000000000000065 "SpellID" "INV_Misc_QuestionMark"
+/run local spellID=select(7, GetSpellInfo("Bone Shield")) print(spellID)
+END
+VER 3 0000000000000079 "SW HV1" "134328"
+/way 57,03 49,74
+/way 55,84 52,75
+/way 51,95 57,88
+/way 55,08 50,27
+/way 61,88 66,5
+/way 66,61 70,39
+/way 61,2 75,47
+/way 63,68 74,47
+/way 62,52 29,46
+/way 66,22 34,12
+/way 66,69 44,22
+/way 60,57 33,94
+/way 63,42 42,06
+/way 73,56 56,25
+/way 75,28 64,76
+END
+VER 3 000000000000007A "SW HV2" "134328"
+/way 76,47 53,74
+/way 72,5 62,2
+/way 43,01 83,20
+/way 54,4 85,42
+/way 47,47 88,88
+/way 44,65 86,94
+/way 50,16 90,02
+END
+VER 3 000000000000006F "WOG" "INV_MISC_QUESTIONMARK"
+#showtooltip word of glory
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] word of glory
+END

@@ -1,0 +1,647 @@
+
+_detalhes_database = {
+	["RaidTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_RAID_POWER_BARS",
+		["Mode"] = 1,
+	},
+	["active_profile"] = "Thedarkflame-Aman'Thul",
+	["combat_id"] = 0,
+	["savedStyles"] = {
+		{
+			["hide_in_combat_alpha"] = 0,
+			["stretch_button_side"] = 1,
+			["show_statusbar"] = true,
+			["backdrop_texture"] = "Details Ground",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["menu_anchor"] = {
+				5, -- [1]
+				1, -- [2]
+				["side"] = 1,
+			},
+			["plugins_grow_direction"] = 2,
+			["menu_alpha"] = {
+				["enabled"] = false,
+				["onenter"] = 1,
+				["iconstoo"] = true,
+				["onleave"] = 1,
+			},
+			["bg_r"] = 0.0941,
+			["auto_hide_menu"] = {
+				["left"] = false,
+				["right"] = false,
+			},
+			["name"] = "Skin",
+			["bars_grow_direction"] = 1,
+			["total_bar"] = {
+				["enabled"] = false,
+				["only_in_group"] = true,
+				["icon"] = "Interface\\ICONS\\INV_Sigil_Thorim",
+				["color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+			},
+			["instancebutton_info"] = {
+				["text_color"] = {
+					1, -- [1]
+					0.82, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["text_face"] = "Friz Quadrata TT",
+				["text_size"] = 12,
+				["color_overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+			},
+			["color_buttons"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["wallpaper"] = {
+				["overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["texcoord"] = {
+					0, -- [1]
+					1, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["enabled"] = false,
+				["anchor"] = "all",
+				["height"] = 0,
+				["alpha"] = 0.5,
+				["width"] = 0,
+			},
+			["bars_sort_direction"] = 1,
+			["statusbar_info"] = {
+				["alpha"] = 1,
+				["overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+			},
+			["auto_current"] = true,
+			["toolbar_side"] = 1,
+			["bg_g"] = 0.0941,
+			["tooltip"] = {
+				["n_abilities"] = 3,
+				["n_enemies"] = 3,
+			},
+			["show_sidebars"] = true,
+			["attribute_text"] = {
+				["enabled"] = false,
+				["side"] = 1,
+				["text_size"] = 12,
+				["anchor"] = {
+					5, -- [1]
+					1, -- [2]
+				},
+				["text_color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["text_face"] = "Friz Quadrata TT",
+			},
+			["bg_alpha"] = 0.7,
+			["instance_button_anchor"] = {
+				-27, -- [1]
+				1, -- [2]
+			},
+			["version"] = 3,
+			["row_info"] = {
+				["textR_outline"] = false,
+				["textL_outline"] = true,
+				["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small",
+				["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+				["fixed_texture_color"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+				},
+				["fixed_text_color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+				["space"] = {
+					["right"] = -5,
+					["left"] = 3,
+					["between"] = 1,
+				},
+				["texture_background_class_color"] = true,
+				["texture"] = "Armory",
+				["font_face_file"] = "Fonts\\ARIALN.TTF",
+				["texture_background"] = "Armory",
+				["textL_class_colors"] = false,
+				["textR_class_colors"] = false,
+				["alpha"] = 1,
+				["no_icon"] = false,
+				["font_size"] = 12,
+				["texture_background_file"] = "Interface\\Addons\\NeedToKnow\\Textures\\Armory.tga",
+				["font_face"] = "Arial Narrow",
+				["texture_class_colors"] = true,
+				["height"] = 14,
+				["texture_file"] = "Interface\\Addons\\NeedToKnow\\Textures\\Armory.tga",
+				["fixed_texture_background_color"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+				},
+				["start_after_icon"] = true,
+			},
+			["resetbutton_info"] = {
+				["always_small"] = false,
+				["text_color"] = {
+					1, -- [1]
+					0.82, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["color_overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["text_size"] = 12,
+				["text_color_small"] = {
+					1, -- [1]
+					0.82, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["text_face"] = "Friz Quadrata TT",
+			},
+			["closebutton_info"] = {
+				["color_overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+			},
+			["skin"] = "Default Skin",
+			["bg_b"] = 0.0941,
+		}, -- [1]
+	},
+	["savedbuffs"] = {
+	},
+	["tabela_historico"] = {
+		["tabelas"] = {
+		},
+	},
+	["last_version"] = "v1.13.1",
+	["tabela_instancias"] = {
+		{
+			["show_statusbar"] = true,
+			["menu_anchor"] = {
+				5, -- [1]
+				1, -- [2]
+				["side"] = 1,
+			},
+			["bg_r"] = 0.0941,
+			["is_interacting"] = false,
+			["color_buttons"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["rows_showing"] = 0,
+			["bars_sort_direction"] = 1,
+			["tooltip"] = {
+				["n_abilities"] = 3,
+				["n_enemies"] = 3,
+			},
+			["icons"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+			},
+			["ponto3"] = {
+				["y"] = -468.0000076293945,
+				["x"] = -599.9999084472656,
+			},
+			["ponto1"] = {
+				["y"] = -374.0000076293945,
+				["x"] = -899.9999084472656,
+			},
+			["rolagem"] = false,
+			["attribute_text"] = {
+				["enabled"] = false,
+				["shadow"] = false,
+				["side"] = 1,
+				["text_size"] = 12,
+				["anchor"] = {
+					5, -- [1]
+					1, -- [2]
+				},
+				["text_color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["text_face"] = "Friz Quadrata TT",
+			},
+			["plugins_grow_direction"] = 2,
+			["rowframe"] = {
+				[0] = nil --[[ skipped userdata ]],
+				["fading_out"] = false,
+				["fading_in"] = false,
+				["hidden"] = false,
+				["faded"] = false,
+			},
+			["desaturated_menu"] = false,
+			["show_sidebars"] = true,
+			["instancebutton_info"] = {
+				["text_color"] = {
+					1, -- [1]
+					0.82, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["text_face"] = "Friz Quadrata TT",
+				["text_size"] = 12,
+				["color_overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+			},
+			["hide_icon"] = false,
+			["consolidate"] = false,
+			["toolbar_side"] = 1,
+			["bg_g"] = 0.0941,
+			["atributo"] = 1,
+			["top"] = 0,
+			["auto_hide_menu"] = {
+				["left"] = false,
+				["right"] = false,
+			},
+			["closebutton_info"] = {
+				["color_overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+			},
+			["bg_b"] = 0.0941,
+			["row_height"] = 15,
+			["largura_scroll"] = 26,
+			["backdrop_texture"] = "Details Ground",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["alturaAntiga"] = 95.00000762939453,
+			["update"] = true,
+			["last_modo"] = 2,
+			["barraS"] = {
+			},
+			["skin"] = "Default Skin",
+			["need_rolagem"] = false,
+			["ativa"] = true,
+			["rows_fit_in_window"] = 6,
+			["ponto4"] = {
+				["y"] = -374.0000076293945,
+				["x"] = -599.9999084472656,
+			},
+			["ponto2"] = {
+				["y"] = -468.0000076293945,
+				["x"] = -899.9999084472656,
+			},
+			["iniciada"] = true,
+			["oldwith"] = 300,
+			["StatusBarSaved"] = {
+				["options"] = {
+					["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
+						["textFace"] = "Friz Quadrata TT",
+						["textXMod"] = 0,
+						["textYMod"] = 0,
+						["textAlign"] = 0,
+						["textStyle"] = 2,
+						["textSize"] = 10,
+						["textColor"] = {
+							1, -- [1]
+							0.733333, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+					},
+					["DETAILS_STATUSBAR_PLUGIN_PSEGMENT"] = {
+						["textFace"] = "Friz Quadrata TT",
+						["segmentType"] = 1,
+						["textXMod"] = 0,
+						["textYMod"] = 0,
+						["textAlign"] = 0,
+						["textStyle"] = 2,
+						["textSize"] = 10,
+						["textColor"] = {
+							1, -- [1]
+							0.733333, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+					},
+					["DETAILS_STATUSBAR_PLUGIN_CLOCK"] = {
+						["timeType"] = 1,
+						["textFace"] = "Friz Quadrata TT",
+						["textXMod"] = 6,
+						["textYMod"] = 0,
+						["textAlign"] = 0,
+						["textStyle"] = 2,
+						["textSize"] = 10,
+						["textColor"] = {
+							1, -- [1]
+							0.733333, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+					},
+				},
+				["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
+				["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
+				["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
+			},
+			["LastModo"] = 2,
+			["v_barras"] = false,
+			["instance_button_anchor"] = {
+				-27, -- [1]
+				1, -- [2]
+			},
+			["bg_alpha"] = 0.7,
+			["modo"] = 2,
+			["segmento"] = 0,
+			["snap"] = {
+			},
+			["sub_atributo"] = 1,
+			["strata"] = "LOW",
+			["hide_in_combat_alpha"] = 0,
+			["meu_id"] = 1,
+			["floatingframe"] = {
+				[0] = nil --[[ skipped userdata ]],
+			},
+			["statusbar_info"] = {
+				["alpha"] = 1,
+				["overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+			},
+			["locs"] = {
+				["barrasvisiveis"] = 0,
+				["x"] = 0,
+				["barras"] = 50,
+				["altura"] = 100,
+				["h"] = 0,
+				["largura"] = 200,
+				["w"] = 0,
+				["y"] = 0,
+			},
+			["row_show_animation"] = {
+				["anim"] = "Fade",
+				["options"] = {
+				},
+			},
+			["mostrando"] = "normal",
+			["rows_created"] = 6,
+			["bgdisplay_loc"] = 0,
+			["rows_max"] = 50,
+			["row_info"] = {
+				["textR_outline"] = false,
+				["textL_outline"] = true,
+				["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small",
+				["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+				["textR_enable_custom_text"] = false,
+				["fixed_texture_color"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+				},
+				["fixed_text_color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+				["space"] = {
+					["right"] = -5,
+					["left"] = 3,
+					["between"] = 1,
+				},
+				["textR_custom_text"] = "{data1} ({data2}, {data3}%)",
+				["texture"] = "Details D'ictum",
+				["font_face_file"] = "Fonts\\ARIALN.TTF",
+				["textR_class_colors"] = false,
+				["texture_background"] = "Details D'ictum",
+				["texture_background_class_color"] = true,
+				["textL_class_colors"] = false,
+				["alpha"] = 1,
+				["no_icon"] = false,
+				["font_size"] = 10,
+				["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
+				["font_face"] = "Arial Narrow",
+				["texture_class_colors"] = true,
+				["height"] = 14,
+				["texture_file"] = "Interface\\AddOns\\Details\\images\\bar4",
+				["fixed_texture_background_color"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+				},
+				["start_after_icon"] = true,
+			},
+			["auto_current"] = true,
+			["menu_alpha"] = {
+				["enabled"] = false,
+				["onenter"] = 1,
+				["iconstoo"] = true,
+				["ignorebars"] = false,
+				["onleave"] = 1,
+			},
+			["hide_in_combat"] = false,
+			["posicao"] = {
+				["normal"] = {
+					["y"] = -421.0000076293945,
+					["x"] = -749.9999084472656,
+					["w"] = 300,
+					["h"] = 94,
+				},
+				["solo"] = {
+				},
+			},
+			["wallpaper"] = {
+				["overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["texcoord"] = {
+					0, -- [1]
+					1, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["enabled"] = false,
+				["anchor"] = "all",
+				["height"] = 0,
+				["alpha"] = 0.5,
+				["width"] = 0,
+			},
+			["stretch_button_side"] = 1,
+			["resetbutton_info"] = {
+				["always_small"] = false,
+				["text_color"] = {
+					1, -- [1]
+					0.82, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["color_overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["text_size"] = 12,
+				["text_color_small"] = {
+					1, -- [1]
+					0.82, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["text_face"] = "Friz Quadrata TT",
+			},
+			["bars_grow_direction"] = 1,
+			["total_bar"] = {
+				["enabled"] = false,
+				["only_in_group"] = true,
+				["icon"] = "Interface\\ICONS\\INV_Sigil_Thorim",
+				["color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+			},
+		}, -- [1]
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_SPELL_DETAILS"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_REPORT_ERRORS"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_RAID_POWER_BARS"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_YANP"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["animate"] = false,
+			["author"] = "Details! Team",
+			["showamount"] = false,
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["combat_data"] = {
+			},
+			["cooldowns_timeline"] = {
+			},
+			["author"] = "Details! Team",
+			["debuff_timeline"] = {
+			},
+		},
+	},
+	["character_data"] = {
+		["logons"] = 1,
+	},
+	["switchSaved"] = {
+		["slots"] = 6,
+		["table"] = {
+			{
+			}, -- [1]
+			{
+			}, -- [2]
+			{
+			}, -- [3]
+			{
+			}, -- [4]
+			{
+			}, -- [5]
+			{
+			}, -- [6]
+		},
+	},
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
+	["last_realversion"] = 17,
+	["nick_tag_cache"] = {
+		["nextreset"] = 1400502321,
+		["last_version"] = 5,
+	},
+}

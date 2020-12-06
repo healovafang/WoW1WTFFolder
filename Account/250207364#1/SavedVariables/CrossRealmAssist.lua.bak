@@ -1,0 +1,11 @@
+
+CrossRealmAssistDB = {
+	["profileKeys"] = {
+		["Healovafang - Aman'Thul"] = "Healovafang - Aman'Thul",
+		["Draaminyok - Tichondrius"] = "Draaminyok - Tichondrius",
+		["Fangshotya - Aman'Thul"] = "Fangshotya - Aman'Thul",
+		["Vampirefang - Aman'Thul"] = "Vampirefang - Aman'Thul",
+		["Fangandfoot - Aman'Thul"] = "Fangandfoot - Aman'Thul",
+		["Fangovafang - Aman'Thul"] = "Fangovafang - Aman'Thul",
+	},
+}

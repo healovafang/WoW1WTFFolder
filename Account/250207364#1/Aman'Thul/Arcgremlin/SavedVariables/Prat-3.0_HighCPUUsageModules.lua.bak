@@ -1,0 +1,22 @@
+
+Prat3HighCPUPerCharDB = {
+	["time"] = 1416992262,
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			{
+				"|cff979797[21:57:42]|r|c00000000|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:1|h[1. General - Loch Modan]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				69, -- [5]
+			}, -- [1]
+			{
+				"|cff979797[21:57:42]|r|c00000000|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:3|h[3. LocalDefense - Loch Modan]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				71, -- [5]
+			}, -- [2]
+		},
+	},
+}

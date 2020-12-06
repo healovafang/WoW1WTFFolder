@@ -1,0 +1,24 @@
+
+SkinnerDB = {
+	["namespaces"] = {
+		["ViewPort"] = {
+		},
+		["MiddleFrames"] = {
+		},
+		["TopFrame"] = {
+		},
+		["UIButtons"] = {
+		},
+		["BottomFrame"] = {
+		},
+		["UnitFrames"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Vampirefang - Aman'Thul"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

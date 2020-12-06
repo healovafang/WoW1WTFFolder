@@ -1,0 +1,5350 @@
+
+_detalhes_database = {
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Vampirefang-Aman'Thul",
+	["last_realversion"] = 31,
+	["combat_counter"] = 33,
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["showamount"] = false,
+			["author"] = "Details! Team",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["opened"] = 0,
+			["max_emote_segments"] = 3,
+			["show_icon"] = 5,
+			["hide_on_combat"] = false,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_YANP"] = {
+			["enabled"] = true,
+			["rightclick_closed"] = false,
+			["auto_open"] = true,
+			["hide_on_combat"] = true,
+			["author"] = "Details! Team",
+			["deaths_table"] = {
+			},
+			["shown_time"] = 30,
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["realm_lastamt"] = 0,
+			["realm_history"] = {
+			},
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
+		},
+	},
+	["character_data"] = {
+		["logons"] = 1,
+	},
+	["tabela_instancias"] = {
+	},
+	["combat_id"] = 24,
+	["savedStyles"] = {
+		{
+			["hide_in_combat_alpha"] = 0,
+			["stretch_button_side"] = 1,
+			["show_statusbar"] = true,
+			["backdrop_texture"] = "Details Ground",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["menu_anchor"] = {
+				5, -- [1]
+				1, -- [2]
+				["side"] = 1,
+			},
+			["plugins_grow_direction"] = 2,
+			["menu_alpha"] = {
+				["enabled"] = false,
+				["onenter"] = 1,
+				["iconstoo"] = true,
+				["onleave"] = 1,
+			},
+			["bg_r"] = 0.0941,
+			["auto_hide_menu"] = {
+				["left"] = false,
+				["right"] = false,
+			},
+			["wallpaper"] = {
+				["overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["texcoord"] = {
+					0, -- [1]
+					1, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["enabled"] = false,
+				["anchor"] = "all",
+				["height"] = 0,
+				["alpha"] = 0.5,
+				["width"] = 0,
+			},
+			["bars_grow_direction"] = 1,
+			["total_bar"] = {
+				["enabled"] = false,
+				["only_in_group"] = true,
+				["icon"] = "Interface\\ICONS\\INV_Sigil_Thorim",
+				["color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+			},
+			["instancebutton_info"] = {
+				["text_color"] = {
+					1, -- [1]
+					0.82, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["text_face"] = "Friz Quadrata TT",
+				["text_size"] = 12,
+				["color_overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+			},
+			["color_buttons"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["version"] = 3,
+			["bars_sort_direction"] = 1,
+			["statusbar_info"] = {
+				["alpha"] = 1,
+				["overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+			},
+			["auto_current"] = true,
+			["toolbar_side"] = 1,
+			["bg_g"] = 0.0941,
+			["tooltip"] = {
+				["n_abilities"] = 3,
+				["n_enemies"] = 3,
+			},
+			["show_sidebars"] = true,
+			["attribute_text"] = {
+				["enabled"] = false,
+				["side"] = 1,
+				["text_size"] = 12,
+				["anchor"] = {
+					5, -- [1]
+					1, -- [2]
+				},
+				["text_color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["text_face"] = "Friz Quadrata TT",
+			},
+			["bg_alpha"] = 0.7,
+			["instance_button_anchor"] = {
+				-27, -- [1]
+				1, -- [2]
+			},
+			["name"] = "Skin",
+			["row_info"] = {
+				["textR_outline"] = false,
+				["textL_outline"] = true,
+				["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small",
+				["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+				["fixed_texture_color"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+				},
+				["fixed_text_color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+				["space"] = {
+					["right"] = -5,
+					["left"] = 3,
+					["between"] = 1,
+				},
+				["texture_background_class_color"] = true,
+				["texture"] = "Armory",
+				["font_face_file"] = "Fonts\\ARIALN.TTF",
+				["textR_class_colors"] = false,
+				["texture_background"] = "Armory",
+				["textL_class_colors"] = false,
+				["alpha"] = 1,
+				["no_icon"] = false,
+				["font_size"] = 12,
+				["texture_background_file"] = "Interface\\Addons\\NeedToKnow\\Textures\\Armory.tga",
+				["font_face"] = "Arial Narrow",
+				["texture_class_colors"] = true,
+				["height"] = 14,
+				["texture_file"] = "Interface\\Addons\\NeedToKnow\\Textures\\Armory.tga",
+				["fixed_texture_background_color"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+				},
+				["start_after_icon"] = true,
+			},
+			["resetbutton_info"] = {
+				["always_small"] = false,
+				["text_color"] = {
+					1, -- [1]
+					0.82, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["color_overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["text_size"] = 12,
+				["text_color_small"] = {
+					1, -- [1]
+					0.82, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["text_face"] = "Friz Quadrata TT",
+			},
+			["closebutton_info"] = {
+				["color_overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+			},
+			["skin"] = "Default Skin",
+			["bg_b"] = 0.0941,
+		}, -- [1]
+	},
+	["savedbuffs"] = {
+	},
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 24,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Krik'thik Limbpincer"] = true,
+							},
+							["targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+									{
+										["nome"] = "Krik'thik Limbpincer",
+										["total"] = 17636,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 17636.008819,
+							["friendlyfire"] = {
+								["tipo"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["dps_started"] = false,
+							["total"] = 17636.008819,
+							["classe"] = "ROGUE",
+							["nome"] = "Swishstab",
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 2603,
+										["g_amt"] = 0,
+										["n_max"] = 664,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 7382,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 414,
+										["n_dmg"] = 4779,
+										["n_min"] = 215,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 7382,
+										["c_max"] = 1300,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 1,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["r_amt"] = 0,
+										["c_min"] = 414,
+									}, -- [1]
+									[2098] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2593,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 3112,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3112,
+										["n_min"] = 519,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3112,
+										["c_max"] = 0,
+										["id"] = 2098,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[1752] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 970,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 1924,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1924,
+										["n_min"] = 954,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1924,
+										["c_max"] = 0,
+										["id"] = 1752,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[84617] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1507,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 1507,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1507,
+										["c_max"] = 1507,
+										["id"] = 84617,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 1507,
+									},
+									[86392] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1181,
+										["g_amt"] = 0,
+										["n_max"] = 296,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 2064,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 883,
+										["n_min"] = 293,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 2064,
+										["c_max"] = 594,
+										["id"] = 86392,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 587,
+									},
+									[113780] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 139,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 555,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 555,
+										["n_min"] = 138,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 555,
+										["c_max"] = 0,
+										["id"] = 113780,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[2818] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 554,
+										["g_amt"] = 0,
+										["n_max"] = 269,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 1092,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 538,
+										["n_min"] = 269,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1092,
+										["c_max"] = 554,
+										["id"] = 2818,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 554,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["end_time"] = 1413369996,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 4551.008819,
+							["start_time"] = 1413369986,
+							["delay"] = 0,
+							["last_event"] = 1413369995,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["damage_from"] = {
+								["Krik'thik Locust-Guard"] = true,
+							},
+							["targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+									{
+										["nome"] = "Krik'thik Locust-Guard",
+										["total"] = 3709,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["serial"] = "Player-1418-05B52EF0",
+							["on_hold"] = true,
+							["friendlyfire_total"] = 0,
+							["timeMachine"] = 66,
+							["total_without_pet"] = 3709.002564,
+							["friendlyfire"] = {
+								["tipo"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["dps_started"] = true,
+							["total"] = 3709.002564,
+							["classe"] = "WARRIOR",
+							["nome"] = "Kossiak",
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									[12294] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3709,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Locust-Guard",
+													["total"] = 3709,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3709,
+										["n_min"] = 3709,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 3709,
+										["c_max"] = 0,
+										["id"] = 12294,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 918.002564,
+							["start_time"] = 1413369997,
+							["delay"] = 1413369997,
+							["last_event"] = 1413369997,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 24,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.008152,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Swishstab"] = true,
+							},
+							["targets"] = {
+								["tipo"] = 4,
+								["_ActorTable"] = {
+									{
+										["overheal"] = 0,
+										["total"] = 5628,
+										["nome"] = "Swishstab",
+										["absorbed"] = 0,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "ROGUE",
+							["totalover"] = 0.008152,
+							["total_without_pet"] = 5628.008152,
+							["last_event"] = 1413369996,
+							["fight_component"] = true,
+							["end_time"] = 1413369996,
+							["heal_enemy_amt"] = 0,
+							["totalover_without_pet"] = 0.008152,
+							["nome"] = "Swishstab",
+							["healing_taken"] = 5628.008152,
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									[73651] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["n_max"] = 1407,
+										["targets"] = {
+											["tipo"] = 4,
+											["_ActorTable"] = {
+												{
+													["overheal"] = 0,
+													["total"] = 5628,
+													["nome"] = "Swishstab",
+													["absorbed"] = 0,
+												}, -- [1]
+											},
+										},
+										["n_min"] = 1407,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 5628,
+										["c_max"] = 0,
+										["id"] = 73651,
+										["m_curado"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 5628,
+										["n_amt"] = 4,
+										["m_overheal"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["heal_enemy"] = {
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1413369987,
+							["delay"] = 0,
+							["total"] = 5628.008152,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 24,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 24,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["classe"] = "WARRIOR",
+							["nome"] = "Kossiak",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["buff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[6673] = {
+										["activedamt"] = 1,
+										["id"] = 6673,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived_at"] = 1413369986,
+										["uptime"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[2457] = {
+										["activedamt"] = 1,
+										["id"] = 2457,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived_at"] = 1413369986,
+										["uptime"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[32216] = {
+										["activedamt"] = 1,
+										["id"] = 32216,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived_at"] = 1413369986,
+										["uptime"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[124213] = {
+										["activedamt"] = 1,
+										["id"] = 124213,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived_at"] = 1413369986,
+										["uptime"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[167188] = {
+										["activedamt"] = 1,
+										["id"] = 167188,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived_at"] = 1413369986,
+										["uptime"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[120175] = {
+										["activedamt"] = 1,
+										["id"] = 120175,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived_at"] = 1413369986,
+										["uptime"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived_at"] = 1413369986,
+										["uptime"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["tipo"] = 4,
+							["buff_uptime"] = 0,
+							["serial"] = "Player-1418-05B52EF0",
+							["last_event"] = 1413369986,
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[2818] = {
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = 2818,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[84617] = {
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = 84617,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[3409] = {
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = 3409,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 61,
+							["buff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[3408] = {
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 3408,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[73651] = {
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 73651,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[36554] = {
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 36554,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[2823] = {
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 2823,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[5171] = {
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 5171,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[93806] = {
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 93806,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[113742] = {
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 113742,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["classe"] = "ROGUE",
+							["fight_component"] = true,
+							["debuff_uptime"] = 25,
+							["buff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["last_event"] = 1413369996,
+							["nome"] = "Swishstab",
+							["pets"] = {
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["tipo"] = 4,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["_NameIndexTable"] = {
+					},
+					["funcao_de_criacao"] = nil --[[ skipped inline function ]],
+					["combatId"] = 24,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+					["need_refresh"] = true,
+				}, -- [5]
+				["raid_roster"] = {
+					["Kossiak"] = true,
+					["Swishstab"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Krik'thik Limbpincer",
+				["combat_counter"] = 33,
+				["totals"] = {
+					21344.988345, -- [1]
+					5628, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 0,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Kossiak"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							918, -- [3]
+							1413369998.509, -- [4]
+							32512, -- [5]
+							"Krik'thik Locust-Guard", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						["n"] = 2,
+					},
+					["Swishstab"] = {
+						{
+							true, -- [1]
+							124800, -- [2]
+							159, -- [3]
+							1413369997.65, -- [4]
+							24938, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [1]
+						{
+							true, -- [1]
+							124800, -- [2]
+							157, -- [3]
+							1413369999.675, -- [4]
+							26545, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						["n"] = 3,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["data_inicio"] = "23:46:27",
+				["end_time"] = 1413369996,
+				["combat_id"] = 24,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Krik'thik Limbpincer"] = 1,
+				},
+				["data_fim"] = "23:46:37",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					21345, -- [1]
+					5628, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 0,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1413369986,
+				["contra"] = "Krik'thik Limbpincer",
+				["TimeData"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 23,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["damage_from"] = {
+								["Krik'thik Limbpincer"] = true,
+								["Krik'thik Locust-Guard"] = true,
+							},
+							["targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+									{
+										["nome"] = "Krik'thik Limbpincer",
+										["total"] = 31933,
+									}, -- [1]
+									{
+										["nome"] = "Krik'thik Locust-Guard",
+										["total"] = 21450,
+									}, -- [2]
+								},
+							},
+							["pets"] = {
+							},
+							["serial"] = "Player-1418-05B52EF0",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 53383.006621,
+							["friendlyfire"] = {
+								["tipo"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["dps_started"] = false,
+							["total"] = 53383.006621,
+							["classe"] = "WARRIOR",
+							["nome"] = "Kossiak",
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3515,
+										["g_amt"] = 0,
+										["n_max"] = 1719,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 6270,
+												}, -- [1]
+												{
+													["nome"] = "Krik'thik Locust-Guard",
+													["total"] = 4614,
+												}, -- [2]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7369,
+										["n_min"] = 1036,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 10884,
+										["c_max"] = 3515,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 3515,
+									}, -- [1]
+									[12294] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 8176,
+										["g_amt"] = 0,
+										["n_max"] = 5734,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 13910,
+												}, -- [1]
+												{
+													["nome"] = "Krik'thik Locust-Guard",
+													["total"] = 8397,
+												}, -- [2]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 14131,
+										["n_min"] = 3753,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 22307,
+										["c_max"] = 8176,
+										["id"] = 12294,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 8176,
+									},
+									[772] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 5611,
+										["g_amt"] = 0,
+										["n_max"] = 1366,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 5611,
+												}, -- [1]
+												{
+													["nome"] = "Krik'thik Locust-Guard",
+													["total"] = 5335,
+												}, -- [2]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5335,
+										["n_min"] = 1239,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 10946,
+										["c_max"] = 2812,
+										["id"] = 772,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 2799,
+									},
+									[46968] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1123,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Locust-Guard",
+													["total"] = 1123,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1123,
+										["n_min"] = 1123,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1123,
+										["c_max"] = 0,
+										["id"] = 46968,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[34428] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2786,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 3622,
+												}, -- [1]
+												{
+													["nome"] = "Krik'thik Locust-Guard",
+													["total"] = 1981,
+												}, -- [2]
+											},
+										},
+										["m_dmg"] = 836,
+										["n_dmg"] = 5603,
+										["n_min"] = 836,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 5603,
+										["c_max"] = 0,
+										["id"] = 34428,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 1,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[167105] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2520,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 2520,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2520,
+										["n_min"] = 2520,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2520,
+										["c_max"] = 0,
+										["id"] = 167105,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["end_time"] = 1413369980,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10348.006621,
+							["start_time"] = 1413369957,
+							["delay"] = 0,
+							["last_event"] = 1413369977,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Krik'thik Limbpincer"] = true,
+							},
+							["targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+									{
+										["nome"] = "Krik'thik Limbpincer",
+										["total"] = 16681,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 16681.002682,
+							["friendlyfire"] = {
+								["tipo"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["dps_started"] = false,
+							["total"] = 16681.002682,
+							["classe"] = "ROGUE",
+							["nome"] = "Swishstab",
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1293,
+										["g_amt"] = 0,
+										["n_max"] = 828,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 7864,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 83,
+										["n_dmg"] = 6571,
+										["n_min"] = 83,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 7864,
+										["c_max"] = 1293,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 2,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 1,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["r_amt"] = 0,
+										["c_min"] = 1293,
+									}, -- [1]
+									[2098] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2563,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 2563,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2563,
+										["n_min"] = 2563,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2563,
+										["c_max"] = 0,
+										["id"] = 2098,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[1752] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1232,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 3360,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3360,
+										["n_min"] = 982,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 3360,
+										["c_max"] = 0,
+										["id"] = 1752,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[84617] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 858,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 858,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 858,
+										["n_min"] = 858,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 858,
+										["c_max"] = 0,
+										["id"] = 84617,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[113780] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 172,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 685,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 685,
+										["n_min"] = 171,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 685,
+										["c_max"] = 0,
+										["id"] = 113780,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[2818] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 685,
+										["g_amt"] = 0,
+										["n_max"] = 333,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 1351,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 666,
+										["n_min"] = 333,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1351,
+										["c_max"] = 685,
+										["id"] = 2818,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 685,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["end_time"] = 1413369986,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 10054.002682,
+							["start_time"] = 1413369965,
+							["delay"] = 0,
+							["last_event"] = 1413369986,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 23,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Swishstab"] = true,
+							},
+							["targets"] = {
+								["tipo"] = 4,
+								["_ActorTable"] = {
+									{
+										["overheal"] = 0,
+										["total"] = 11596,
+										["nome"] = "Swishstab",
+										["absorbed"] = 0,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["totalabsorb"] = 0.001778,
+							["classe"] = "ROGUE",
+							["totalover"] = 0.001778,
+							["total_without_pet"] = 11596.001778,
+							["last_event"] = 1413369978,
+							["fight_component"] = true,
+							["end_time"] = 1413369980,
+							["heal_enemy_amt"] = 0,
+							["totalover_without_pet"] = 0.001778,
+							["nome"] = "Swishstab",
+							["healing_taken"] = 11596.001778,
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									[73651] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["n_max"] = 1450,
+										["targets"] = {
+											["tipo"] = 4,
+											["_ActorTable"] = {
+												{
+													["overheal"] = 0,
+													["total"] = 11596,
+													["nome"] = "Swishstab",
+													["absorbed"] = 0,
+												}, -- [1]
+											},
+										},
+										["n_min"] = 1449,
+										["counter"] = 8,
+										["overheal"] = 0,
+										["total"] = 11596,
+										["c_max"] = 0,
+										["id"] = 73651,
+										["m_curado"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 11596,
+										["n_amt"] = 8,
+										["m_overheal"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["heal_enemy"] = {
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1413369957,
+							["delay"] = 0,
+							["total"] = 11596.001778,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Kossiak"] = true,
+							},
+							["targets"] = {
+								["tipo"] = 4,
+								["_ActorTable"] = {
+									{
+										["overheal"] = 0,
+										["total"] = 10440,
+										["nome"] = "Kossiak",
+										["absorbed"] = 0,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["totalabsorb"] = 0.002735,
+							["classe"] = "WARRIOR",
+							["totalover"] = 0.002735,
+							["total_without_pet"] = 10440.002735,
+							["last_event"] = 1413369968,
+							["fight_component"] = true,
+							["end_time"] = 1413369980,
+							["heal_enemy_amt"] = 0,
+							["totalover_without_pet"] = 0.002735,
+							["nome"] = "Kossiak",
+							["healing_taken"] = 10440.002735,
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									[118779] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["n_max"] = 5220,
+										["targets"] = {
+											["tipo"] = 4,
+											["_ActorTable"] = {
+												{
+													["overheal"] = 0,
+													["total"] = 10440,
+													["nome"] = "Kossiak",
+													["absorbed"] = 0,
+												}, -- [1]
+											},
+										},
+										["n_min"] = 5220,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 10440,
+										["c_max"] = 0,
+										["id"] = 118779,
+										["m_curado"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 10440,
+										["n_amt"] = 2,
+										["m_overheal"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["heal_enemy"] = {
+							},
+							["serial"] = "Player-1418-05B52EF0",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1413369973,
+							["delay"] = 1413369968,
+							["total"] = 10440.002735,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 23,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 23,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[115804] = {
+										["activedamt"] = 0,
+										["uptime"] = 10,
+										["id"] = 115804,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[772] = {
+										["activedamt"] = 0,
+										["uptime"] = 16,
+										["id"] = 772,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[105771] = {
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 105771,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[167105] = {
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 167105,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[132168] = {
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = 132168,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 177,
+							["buff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[32216] = {
+										["activedamt"] = 3,
+										["uptime"] = 9,
+										["id"] = 32216,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[124213] = {
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 124213,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[18499] = {
+										["activedamt"] = 1,
+										["uptime"] = 6,
+										["id"] = 18499,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 93795,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[109128] = {
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 109128,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[2457] = {
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 2457,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[12328] = {
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 12328,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[118779] = {
+										["activedamt"] = 2,
+										["uptime"] = 12,
+										["id"] = 118779,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[6673] = {
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 6673,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[120175] = {
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 120175,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[107966] = {
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 107966,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[167188] = {
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 167188,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["classe"] = "WARRIOR",
+							["fight_component"] = true,
+							["debuff_uptime"] = 35,
+							["buff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["last_event"] = 1413369980,
+							["nome"] = "Kossiak",
+							["pets"] = {
+							},
+							["serial"] = "Player-1418-05B52EF0",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[2818] = {
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = 2818,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[84617] = {
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = 84617,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[3409] = {
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = 3409,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 194,
+							["buff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[113742] = {
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 113742,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[2823] = {
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 2823,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[104509] = {
+										["activedamt"] = 1,
+										["uptime"] = 12,
+										["id"] = 104509,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[120173] = {
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 120173,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[5171] = {
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 5171,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[104423] = {
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 104423,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[84746] = {
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 84746,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[3408] = {
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 3408,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[93806] = {
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 93806,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[73651] = {
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 73651,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["classe"] = "ROGUE",
+							["fight_component"] = true,
+							["debuff_uptime"] = 25,
+							["buff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["last_event"] = 1413369980,
+							["nome"] = "Swishstab",
+							["pets"] = {
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["tipo"] = 4,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["_NameIndexTable"] = {
+					},
+					["funcao_de_criacao"] = nil --[[ skipped inline function ]],
+					["combatId"] = 23,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+					["need_refresh"] = true,
+				}, -- [5]
+				["raid_roster"] = {
+					["Kossiak"] = true,
+					["Swishstab"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Krik'thik Limbpincer",
+				["combat_counter"] = 32,
+				["totals"] = {
+					70063.997288, -- [1]
+					22036, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 0,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Swishstab"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							1312, -- [3]
+							1413369986.105, -- [4]
+							24663, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["data_inicio"] = "23:45:57",
+				["end_time"] = 1413369980,
+				["combat_id"] = 23,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Krik'thik Limbpincer"] = 3,
+					["Krik'thik Locust-Guard"] = 1,
+				},
+				["data_fim"] = "23:46:20",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					70064, -- [1]
+					22036, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 0,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1413369957,
+				["contra"] = "Krik'thik Limbpincer",
+				["TimeData"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 22,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Krik'thik Limbpincer"] = true,
+							},
+							["targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+									{
+										["nome"] = "Krik'thik Limbpincer",
+										["total"] = 21338,
+									}, -- [1]
+								},
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["end_time"] = 1413369947,
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 21338.001311,
+							["friendlyfire"] = {
+								["tipo"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["dps_started"] = false,
+							["total"] = 21338.001311,
+							["classe"] = "ROGUE",
+							["nome"] = "Swishstab",
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 8,
+										["b_amt"] = 0,
+										["c_dmg"] = 7430,
+										["g_amt"] = 0,
+										["n_max"] = 746,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 10756,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 211,
+										["n_dmg"] = 3326,
+										["n_min"] = 74,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 10756,
+										["c_max"] = 1555,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 2,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 137,
+									}, -- [1]
+									[2098] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2137,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 2137,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2137,
+										["n_min"] = 2137,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2137,
+										["c_max"] = 0,
+										["id"] = 2098,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[1752] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 4248,
+										["g_amt"] = 0,
+										["n_max"] = 1099,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 6344,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2096,
+										["n_min"] = 997,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 6344,
+										["c_max"] = 2179,
+										["id"] = 1752,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 2069,
+									},
+									[84617] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 760,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 988,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 228,
+										["n_dmg"] = 988,
+										["n_min"] = 228,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 988,
+										["c_max"] = 0,
+										["id"] = 84617,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 1,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[86392] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 338,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 338,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 338,
+										["n_min"] = 338,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 338,
+										["c_max"] = 0,
+										["id"] = 86392,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[113780] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 157,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 471,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 471,
+										["n_min"] = 157,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 471,
+										["c_max"] = 0,
+										["id"] = 113780,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[2818] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 304,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 304,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 304,
+										["n_min"] = 304,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 304,
+										["c_max"] = 0,
+										["id"] = 2818,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 7023.001311,
+							["start_time"] = 1413369926,
+							["delay"] = 0,
+							["last_event"] = 1413369946,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["damage_from"] = {
+								["Krik'thik Locust-Guard"] = true,
+							},
+							["targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+									{
+										["nome"] = "Krik'thik Locust-Guard",
+										["total"] = 21598,
+									}, -- [1]
+									{
+										["nome"] = "Krik'thik Limbpincer",
+										["total"] = 445,
+									}, -- [2]
+								},
+							},
+							["serial"] = "Player-1418-05B52EF0",
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["end_time"] = 1413369957,
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 22043.003561,
+							["friendlyfire"] = {
+								["tipo"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["dps_started"] = false,
+							["total"] = 22043.003561,
+							["classe"] = "WARRIOR",
+							["nome"] = "Kossiak",
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1615,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Locust-Guard",
+													["total"] = 3848,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3848,
+										["n_min"] = 1101,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 3848,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[12294] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5887,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Locust-Guard",
+													["total"] = 10371,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10371,
+										["n_min"] = 4484,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 10371,
+										["c_max"] = 0,
+										["id"] = 12294,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[772] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2552,
+										["g_amt"] = 0,
+										["n_max"] = 1239,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Locust-Guard",
+													["total"] = 3791,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1239,
+										["n_min"] = 1239,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3791,
+										["c_max"] = 2552,
+										["id"] = 772,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 2552,
+									},
+									[46968] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1123,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Locust-Guard",
+													["total"] = 1123,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1123,
+										["n_min"] = 1123,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1123,
+										["c_max"] = 0,
+										["id"] = 46968,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[167105] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2465,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Locust-Guard",
+													["total"] = 2465,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2465,
+										["n_min"] = 2465,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2465,
+										["c_max"] = 0,
+										["id"] = 167105,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[52174] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 445,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 445,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 445,
+										["n_min"] = 445,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 445,
+										["c_max"] = 0,
+										["id"] = 52174,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 3229.003561,
+							["start_time"] = 1413369930,
+							["delay"] = 0,
+							["last_event"] = 1413369955,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 22,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 22,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 22,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime"] = 16,
+							["classe"] = "ROGUE",
+							["buff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["debuff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[3409] = {
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = 3409,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[84617] = {
+										["activedamt"] = 0,
+										["uptime"] = 1,
+										["id"] = 84617,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[2818] = {
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 2818,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["grupo"] = true,
+							["nome"] = "Swishstab",
+							["buff_uptime"] = 88,
+							["debuff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["buff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[84745] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 84745,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[3408] = {
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 3408,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[120173] = {
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 120173,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[73651] = {
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 73651,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[2823] = {
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 2823,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[5171] = {
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 5171,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[93806] = {
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 93806,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[113742] = {
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 113742,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["last_event"] = 1413369940,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["debuff_uptime"] = 23,
+							["classe"] = "WARRIOR",
+							["debuff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["debuff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[132168] = {
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = 132168,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[772] = {
+										["activedamt"] = 0,
+										["uptime"] = 7,
+										["id"] = 772,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[167105] = {
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = 167105,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[115804] = {
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = 115804,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["grupo"] = true,
+							["nome"] = "Kossiak",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["buff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[32216] = {
+										["activedamt"] = 1,
+										["id"] = 32216,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived_at"] = 1413369939,
+										["uptime"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[120175] = {
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 120175,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[6673] = {
+										["activedamt"] = 0,
+										["id"] = 6673,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived_at"] = 1413369938,
+										["uptime"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["tipo"] = 4,
+							["buff_uptime"] = 0,
+							["serial"] = "Player-1418-05B52EF0",
+							["last_event"] = 1413369939,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["_NameIndexTable"] = {
+					},
+					["funcao_de_criacao"] = nil --[[ skipped inline function ]],
+					["combatId"] = 22,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+					["need_refresh"] = true,
+				}, -- [5]
+				["raid_roster"] = {
+					["Kossiak"] = true,
+					["Swishstab"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Krik'thik Limbpincer",
+				["combat_counter"] = 29,
+				["totals"] = {
+					43380.98756, -- [1]
+					0, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 0,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Swishstab"] = {
+						{
+							true, -- [1]
+							124800, -- [2]
+							155, -- [3]
+							1413369940.543, -- [4]
+							9782, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [1]
+						{
+							true, -- [1]
+							124800, -- [2]
+							148, -- [3]
+							1413369942.469, -- [4]
+							11395, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [2]
+						{
+							true, -- [1]
+							124800, -- [2]
+							149, -- [3]
+							1413369944.454, -- [4]
+							11603, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						["n"] = 4,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["data_inicio"] = "23:45:27",
+				["end_time"] = 1413369940,
+				["combat_id"] = 22,
+				["resincked"] = true,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Krik'thik Limbpincer"] = 2,
+					["Krik'thik Locust-Guard"] = 1,
+				},
+				["data_fim"] = "23:45:41",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					43381, -- [1]
+					0, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 0,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1413369926,
+				["contra"] = "Krik'thik Limbpincer",
+				["TimeData"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 21,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+									{
+										["nome"] = "Krik'thik Limbpincer",
+										["total"] = 2203,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["serial"] = "Player-1418-05B52EF0",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 2203.001632,
+							["friendlyfire"] = {
+								["tipo"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["dps_started"] = false,
+							["total"] = 2203.001632,
+							["classe"] = "WARRIOR",
+							["nome"] = "Kossiak",
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1700,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 2203,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 503,
+										["n_dmg"] = 2203,
+										["n_min"] = 503,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2203,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 1,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["end_time"] = 1413369896,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001632,
+							["start_time"] = 1413369895,
+							["delay"] = 1413369879,
+							["last_event"] = 1413369879,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Krik'thik Limbpincer"] = true,
+							},
+							["targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+									{
+										["nome"] = "Krik'thik Limbpincer",
+										["total"] = 54687,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 54687.002475,
+							["friendlyfire"] = {
+								["tipo"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["dps_started"] = false,
+							["total"] = 54687.002475,
+							["classe"] = "ROGUE",
+							["nome"] = "Swishstab",
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 4905,
+										["g_amt"] = 0,
+										["n_max"] = 888,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 13413,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 856,
+										["n_dmg"] = 8508,
+										["n_min"] = 286,
+										["g_dmg"] = 0,
+										["counter"] = 25,
+										["total"] = 13413,
+										["c_max"] = 1729,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 3,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 3,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 16,
+										["r_amt"] = 0,
+										["c_min"] = 179,
+									}, -- [1]
+									[2098] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 5297,
+										["g_amt"] = 0,
+										["n_max"] = 514,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 5811,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 514,
+										["n_min"] = 514,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 5811,
+										["c_max"] = 5297,
+										["id"] = 2098,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 5297,
+									},
+									[57842] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 289,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 1687,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1687,
+										["n_min"] = 276,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 1687,
+										["c_max"] = 0,
+										["id"] = 57842,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[1752] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1340,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 6142,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6142,
+										["n_min"] = 991,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 6142,
+										["c_max"] = 0,
+										["id"] = 1752,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[57841] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 3346,
+										["g_amt"] = 0,
+										["n_max"] = 832,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 6608,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3262,
+										["n_min"] = 795,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 6608,
+										["c_max"] = 1713,
+										["id"] = 57841,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 1633,
+									},
+									[86392] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 409,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 2101,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 123,
+										["n_dmg"] = 2101,
+										["n_min"] = 123,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 2101,
+										["c_max"] = 0,
+										["id"] = 86392,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 1,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[113780] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 497,
+										["g_amt"] = 0,
+										["n_max"] = 185,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 2717,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 115,
+										["n_dmg"] = 2220,
+										["n_min"] = 185,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 2717,
+										["c_max"] = 382,
+										["id"] = 113780,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 1,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["r_amt"] = 0,
+										["c_min"] = 115,
+									},
+									[2818] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 742,
+										["g_amt"] = 0,
+										["n_max"] = 360,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 2902,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2160,
+										["n_min"] = 360,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 2902,
+										["c_max"] = 742,
+										["id"] = 2818,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 742,
+									},
+									[22482] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1589,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 13306,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13306,
+										["n_min"] = 85,
+										["g_dmg"] = 0,
+										["counter"] = 48,
+										["total"] = 13306,
+										["c_max"] = 0,
+										["id"] = 22482,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 48,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["end_time"] = 1413369926,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 24624.002475,
+							["start_time"] = 1413369880,
+							["delay"] = 0,
+							["last_event"] = 1413369926,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 21,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Swishstab"] = true,
+							},
+							["targets"] = {
+								["tipo"] = 4,
+								["_ActorTable"] = {
+									{
+										["overheal"] = 1890,
+										["total"] = 3904,
+										["nome"] = "Swishstab",
+										["absorbed"] = 0,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["totalabsorb"] = 0.001877,
+							["classe"] = "ROGUE",
+							["totalover"] = 1890.001877,
+							["total_without_pet"] = 3904.001877,
+							["last_event"] = 1413369888,
+							["fight_component"] = true,
+							["end_time"] = 1413369896,
+							["heal_enemy_amt"] = 0,
+							["totalover_without_pet"] = 0.001877,
+							["nome"] = "Swishstab",
+							["healing_taken"] = 3904.001877,
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									[73651] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["n_max"] = 1449,
+										["targets"] = {
+											["tipo"] = 4,
+											["_ActorTable"] = {
+												{
+													["overheal"] = 1890,
+													["total"] = 3904,
+													["nome"] = "Swishstab",
+													["absorbed"] = 0,
+												}, -- [1]
+											},
+										},
+										["n_min"] = 1008,
+										["counter"] = 4,
+										["overheal"] = 1890,
+										["total"] = 3904,
+										["c_max"] = 0,
+										["id"] = 73651,
+										["m_curado"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 3904,
+										["n_amt"] = 3,
+										["m_overheal"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["heal_enemy"] = {
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1413369879,
+							["delay"] = 0,
+							["total"] = 3904.001877,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 21,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 21,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["classe"] = "WARRIOR",
+							["nome"] = "Kossiak",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["buff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[6673] = {
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 6673,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[32216] = {
+										["activedamt"] = 1,
+										["uptime"] = 16,
+										["id"] = 32216,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[2457] = {
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 2457,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[18499] = {
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 18499,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[124213] = {
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 124213,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[167188] = {
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 167188,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[107966] = {
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 107966,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 93795,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["tipo"] = 4,
+							["buff_uptime"] = 113,
+							["serial"] = "Player-1418-05B52EF0",
+							["last_event"] = 1413369896,
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[3409] = {
+										["activedamt"] = 0,
+										["uptime"] = 15,
+										["id"] = 3409,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[2818] = {
+										["activedamt"] = 0,
+										["uptime"] = 13,
+										["id"] = 2818,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 134,
+							["buff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[113742] = {
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 113742,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[13877] = {
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 13877,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[51690] = {
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 51690,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[2823] = {
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 2823,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[84747] = {
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 84747,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[36554] = {
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 36554,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[104423] = {
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 104423,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[5171] = {
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 5171,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[120173] = {
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 120173,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[3408] = {
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 3408,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[73651] = {
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 73651,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[93806] = {
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 93806,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[84746] = {
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 84746,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["classe"] = "ROGUE",
+							["fight_component"] = true,
+							["debuff_uptime"] = 28,
+							["buff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["last_event"] = 1413369896,
+							["nome"] = "Swishstab",
+							["pets"] = {
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["tipo"] = 4,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["_NameIndexTable"] = {
+					},
+					["funcao_de_criacao"] = nil --[[ skipped inline function ]],
+					["combatId"] = 21,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+					["need_refresh"] = true,
+				}, -- [5]
+				["raid_roster"] = {
+					["Kossiak"] = true,
+					["Swishstab"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Krik'thik Limbpincer",
+				["combat_counter"] = 27,
+				["totals"] = {
+					56889.994233, -- [1]
+					3904, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 0,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Swishstab"] = {
+						{
+							true, -- [1]
+							124800, -- [2]
+							149, -- [3]
+							1413369896.184, -- [4]
+							17261, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [1]
+						{
+							true, -- [1]
+							124800, -- [2]
+							148, -- [3]
+							1413369897.009, -- [4]
+							17469, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [2]
+						{
+							true, -- [1]
+							124800, -- [2]
+							148, -- [3]
+							1413369897.428, -- [4]
+							17321, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [3]
+						{
+							true, -- [1]
+							124800, -- [2]
+							151, -- [3]
+							1413369898.201, -- [4]
+							17170, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [4]
+						{
+							true, -- [1]
+							124800, -- [2]
+							148, -- [3]
+							1413369899.061, -- [4]
+							17378, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [5]
+						{
+							true, -- [1]
+							124800, -- [2]
+							143, -- [3]
+							1413369900.3, -- [4]
+							17302, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [6]
+						{
+							true, -- [1]
+							124800, -- [2]
+							156, -- [3]
+							1413369901.027, -- [4]
+							17437, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [7]
+						{
+							true, -- [1]
+							124800, -- [2]
+							145, -- [3]
+							1413369919.857, -- [4]
+							16993, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [8]
+						{
+							true, -- [1]
+							124800, -- [2]
+							154, -- [3]
+							1413369921.764, -- [4]
+							17193, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [9]
+						{
+							true, -- [1]
+							124800, -- [2]
+							150, -- [3]
+							1413369923.822, -- [4]
+							17397, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [10]
+						{
+							true, -- [1]
+							124800, -- [2]
+							151, -- [3]
+							1413369925.828, -- [4]
+							17603, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [11]
+						{
+							true, -- [1]
+							1, -- [2]
+							1452, -- [3]
+							1413369926.339, -- [4]
+							17603, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						["n"] = 13,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["data_inicio"] = "23:44:39",
+				["end_time"] = 1413369896,
+				["combat_id"] = 21,
+				["resincked"] = true,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Krik'thik Limbpincer"] = 3,
+				},
+				["data_fim"] = "23:44:56",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					56890, -- [1]
+					3904, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 0,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1413369879,
+				["TimeData"] = {
+				},
+				["pvp"] = true,
+			}, -- [4]
+			{
+				{
+					["combatId"] = 20,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Krik'thik Limbpincer"] = true,
+							},
+							["targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+									{
+										["nome"] = "Krik'thik Limbpincer",
+										["total"] = 19514,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 19514.008661,
+							["friendlyfire"] = {
+								["tipo"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["dps_started"] = false,
+							["total"] = 19514.008661,
+							["classe"] = "ROGUE",
+							["nome"] = "Swishstab",
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 2840,
+										["g_amt"] = 0,
+										["n_max"] = 831,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 8266,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 306,
+										["n_dmg"] = 5426,
+										["n_min"] = 74,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 8266,
+										["c_max"] = 1689,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 2,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["r_amt"] = 0,
+										["c_min"] = 570,
+									}, -- [1]
+									[2098] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2374,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 2374,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2374,
+										["n_min"] = 2374,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2374,
+										["c_max"] = 0,
+										["id"] = 2098,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[1752] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2351,
+										["g_amt"] = 0,
+										["n_max"] = 1230,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 5913,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3562,
+										["n_min"] = 1151,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 5913,
+										["c_max"] = 2351,
+										["id"] = 1752,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 2351,
+									},
+									[86392] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1503,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 1503,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1503,
+										["c_max"] = 773,
+										["id"] = 86392,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 730,
+									},
+									[113780] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 352,
+										["g_amt"] = 0,
+										["n_max"] = 171,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 694,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 342,
+										["n_min"] = 171,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 694,
+										["c_max"] = 352,
+										["id"] = 113780,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 352,
+									},
+									[2818] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 332,
+										["targets"] = {
+											["tipo"] = 6,
+											["_ActorTable"] = {
+												{
+													["nome"] = "Krik'thik Limbpincer",
+													["total"] = 764,
+												}, -- [1]
+											},
+										},
+										["m_dmg"] = 100,
+										["n_dmg"] = 764,
+										["n_min"] = 100,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 764,
+										["c_max"] = 0,
+										["id"] = 2818,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 1,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["end_time"] = 1413369872,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 4845.008661,
+							["start_time"] = 1413369856,
+							["delay"] = 0,
+							["last_event"] = 1413369871,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 20,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["totalabsorb"] = 0.002568,
+							["last_hps"] = 0,
+							["healing_from"] = {
+							},
+							["targets"] = {
+								["tipo"] = 4,
+								["_ActorTable"] = {
+								},
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 0.002568,
+							["total_without_pet"] = 0.002568,
+							["last_event"] = 1413369862,
+							["end_time"] = 1413369864,
+							["totalover_without_pet"] = 0.002568,
+							["healing_taken"] = 0.002568,
+							["nome"] = "Kossiak",
+							["serial"] = "Player-1418-05B52EF0",
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["heal_enemy"] = {
+								[120573] = 12576,
+							},
+							["heal_enemy_amt"] = 12576,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1413369864,
+							["delay"] = 0,
+							["total"] = 0.002568,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Swishstab"] = true,
+							},
+							["targets"] = {
+								["tipo"] = 4,
+								["_ActorTable"] = {
+									{
+										["overheal"] = 0,
+										["total"] = 2898,
+										["nome"] = "Swishstab",
+										["absorbed"] = 0,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["totalabsorb"] = 0.002625,
+							["classe"] = "ROGUE",
+							["totalover"] = 0.002625,
+							["total_without_pet"] = 2898.002625,
+							["last_event"] = 1413369861,
+							["fight_component"] = true,
+							["end_time"] = 1413369864,
+							["heal_enemy_amt"] = 0,
+							["totalover_without_pet"] = 0.002625,
+							["nome"] = "Swishstab",
+							["healing_taken"] = 2898.002625,
+							["grupo"] = true,
+							["spell_tables"] = {
+								["_ActorTable"] = {
+									[73651] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["n_max"] = 1449,
+										["targets"] = {
+											["tipo"] = 4,
+											["_ActorTable"] = {
+												{
+													["overheal"] = 0,
+													["total"] = 2898,
+													["nome"] = "Swishstab",
+													["absorbed"] = 0,
+												}, -- [1]
+											},
+										},
+										["n_min"] = 1449,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 2898,
+										["c_max"] = 0,
+										["id"] = 73651,
+										["m_curado"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 2898,
+										["n_amt"] = 2,
+										["m_overheal"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["heal_enemy"] = {
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1413369858,
+							["delay"] = 0,
+							["total"] = 2898.002625,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 20,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 20,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["classe"] = "WARRIOR",
+							["nome"] = "Kossiak",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["buff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[32216] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 32216,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[124213] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 124213,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 93795,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[2457] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 2457,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[118779] = {
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 118779,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[6673] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 6673,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[12328] = {
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 12328,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[107966] = {
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 107966,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[167188] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 167188,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["tipo"] = 4,
+							["buff_uptime"] = 53,
+							["serial"] = "Player-1418-05B52EF0",
+							["last_event"] = 1413369864,
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[3409] = {
+										["activedamt"] = 0,
+										["uptime"] = 7,
+										["id"] = 3409,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[2818] = {
+										["activedamt"] = 0,
+										["uptime"] = 7,
+										["id"] = 2818,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 61,
+							["buff_uptime_spell_tables"] = {
+								["_ActorTable"] = {
+									[113742] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 113742,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[2823] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 2823,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[73651] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 73651,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[84746] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 84746,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[5171] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 5171,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[120173] = {
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 120173,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[3408] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 3408,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[84745] = {
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 84745,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[93806] = {
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 93806,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[36554] = {
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 36554,
+										["actived"] = false,
+										["targets"] = {
+											["tipo"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["classe"] = "ROGUE",
+							["fight_component"] = true,
+							["debuff_uptime"] = 14,
+							["buff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+								["tipo"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["last_event"] = 1413369864,
+							["nome"] = "Swishstab",
+							["pets"] = {
+							},
+							["serial"] = "Player-1418-060A4BB4",
+							["tipo"] = 4,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["_NameIndexTable"] = {
+					},
+					["funcao_de_criacao"] = nil --[[ skipped inline function ]],
+					["combatId"] = 20,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+					["need_refresh"] = true,
+				}, -- [5]
+				["raid_roster"] = {
+					["Kossiak"] = true,
+					["Swishstab"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Krik'thik Limbpincer",
+				["combat_counter"] = 25,
+				["totals"] = {
+					19513.991366, -- [1]
+					2897.992792, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 0,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Swishstab"] = {
+						{
+							true, -- [1]
+							124800, -- [2]
+							147, -- [3]
+							1413369864.558, -- [4]
+							32377, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [1]
+						{
+							true, -- [1]
+							124800, -- [2]
+							154, -- [3]
+							1413369866.637, -- [4]
+							32578, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [2]
+						{
+							true, -- [1]
+							124800, -- [2]
+							141, -- [3]
+							1413369868.576, -- [4]
+							34242, -- [5]
+							"Krik'thik Limbpincer", -- [6]
+							nil, -- [7]
+							1, -- [8]
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						["n"] = 4,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["data_inicio"] = "23:44:16",
+				["end_time"] = 1413369864,
+				["combat_id"] = 20,
+				["resincked"] = true,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Krik'thik Limbpincer"] = 1,
+				},
+				["data_fim"] = "23:44:24",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					19514, -- [1]
+					2898, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 0,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1413369856,
+				["contra"] = "Krik'thik Limbpincer",
+				["TimeData"] = {
+				},
+			}, -- [5]
+		},
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["last_version"] = "v2.0.14",
+	["last_instance_time"] = 0,
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = 0,
+					["x"] = -0.0001220703125,
+					["w"] = 320,
+					["h"] = 129.999984741211,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1414663026,
+		["last_version"] = 7,
+	},
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["last_instance_id"] = 0,
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
+}

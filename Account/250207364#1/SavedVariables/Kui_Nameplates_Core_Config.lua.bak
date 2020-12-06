@@ -1,0 +1,13 @@
+
+KuiNameplatesCoreSaved = {
+	["profiles"] = {
+		["default"] = {
+			["fade_alpha"] = 0.349999994039536,
+			["frame_height"] = 20,
+			["bar_texture"] = "Blizzard Raid Bar",
+			["nameonly_enemies"] = false,
+		},
+		["Healovafang"] = {
+		},
+	},
+}

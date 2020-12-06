@@ -1,0 +1,15 @@
+OPie_Classic: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+Prat-3.0_Libraries: enabled
+AskMrRobot: disabled
+oUF_Lybrial: disabled
+Prat-3.0: enabled
+AdvancedInterfaceOptions: enabled
+Details: enabled
+AstralKeys: enabled
+MythicDungeonTools: disabled
+OPie: disabled
+RareScanner: enabled
+TinyPad: disabled
+Details_DeathGraphs: disabled

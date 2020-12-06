@@ -1,0 +1,123 @@
+
+BloodShieldTrackerDB = {
+	["profileKeys"] = {
+		["Swishstab - Aman'Thul"] = "Default",
+		["Healovafang - Aman'Thul"] = "Default",
+		["Fangofzero - Aman'Thul"] = "Default",
+		["Vampirefang - Aman'Thul"] = "Default",
+		["Arcgremlin - Aman'Thul"] = "Default",
+		["Thewhitefang - Aman'Thul"] = "Default",
+		["Thedarkflame - Aman'Thul"] = "Default",
+		["Sixpathsowar - Aman'Thul"] = "Default",
+		["Avatarfang - Aman'Thul"] = "Default",
+		["Prettyfang - Aman'Thul"] = "Default",
+		["Fangshotya - Aman'Thul"] = "Default",
+		["Draaminyok - Tichondrius"] = "Default",
+		["Fangandfoot - Aman'Thul"] = "Default",
+		["Fangovafang - Aman'Thul"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["profile_version"] = 4,
+			["skinning"] = {
+				["elvui"] = {
+					["enabled"] = false,
+				},
+				["tukui"] = {
+					["enabled"] = false,
+				},
+			},
+			["bars"] = {
+				["PWSBar"] = {
+				},
+				["ShieldBar"] = {
+					["border"] = false,
+					["enabled"] = false,
+					["y"] = -40,
+					["x"] = -238,
+				},
+				["HealthBar"] = {
+				},
+				["BoneShieldBar"] = {
+					["locked"] = true,
+					["texture"] = "Blizzard Raid Bar",
+					["enabled"] = true,
+					["width"] = 175,
+					["y"] = -64.9998168945313,
+					["x"] = -431.000122070313,
+				},
+				["TargetSwingTimerBar"] = {
+				},
+				["BoneWallBar"] = {
+					["texture"] = "Blizzard Raid Bar",
+				},
+				["AMSBar"] = {
+					["bgcolor"] = {
+						["a"] = 0.700000017881393,
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
+					["border"] = false,
+					["locked"] = true,
+					["texture"] = "Blizzard Raid Bar",
+					["enabled"] = true,
+					["textcolor"] = {
+						["g"] = 0.576470588235294,
+						["r"] = 0.705882352941177,
+					},
+					["y"] = -7.99993896484375,
+					["x"] = -275,
+					["color"] = {
+						["b"] = 0,
+						["g"] = 0.941176470588235,
+						["r"] = 0.188235294117647,
+					},
+				},
+				["EstimateBar"] = {
+					["show_text"] = false,
+					["locked"] = true,
+					["usePercent"] = true,
+					["texture"] = "Blizzard Raid Bar",
+					["enabled"] = false,
+					["width"] = 175,
+					["y"] = -45.9999084472656,
+					["x"] = -431,
+					["bgcolor"] = {
+						["a"] = 1,
+						["r"] = 0.650980392156863,
+					},
+				},
+				["TotalAbsorbsBar"] = {
+					["border"] = false,
+					["texture"] = "Blizzard Raid Bar",
+					["enabled"] = true,
+					["textcolor"] = {
+						["g"] = 0.698039215686275,
+						["r"] = 0.658823529411765,
+					},
+					["included"] = {
+						["Life Cocoon"] = false,
+						["Spirit Shell"] = false,
+						["Illuminated Healing"] = false,
+						["Anti-Magic Shell"] = true,
+						["Sacred Shield"] = false,
+						["Divine Aegis"] = false,
+						["Power Word: Shield"] = false,
+						["Clarity of Will"] = false,
+						["Guard"] = false,
+						["Indomitable Pride"] = false,
+					},
+					["y"] = 6.99993896484375,
+					["x"] = -275,
+					["tracked"] = "Excluding",
+					["color"] = {
+						["b"] = 0.0196078431372549,
+						["g"] = 0.0470588235294118,
+						["r"] = 0.713725490196079,
+					},
+				},
+			},
+		},
+	},
+}

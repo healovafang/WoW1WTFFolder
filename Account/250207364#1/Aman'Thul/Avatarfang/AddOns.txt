@@ -1,0 +1,15 @@
+Auc-Filter-Basic: disabled
+Auc-ScanData: enabled
+Auc-Stat-iLevel: disabled
+Auc-Stat-Histogram: disabled
+Auc-Stat-Purchased: disabled
+Auc-Stat-Simple: disabled
+Auc-Util-FixAH: disabled
+Auc-Stat-StdDev: disabled
+BeanCounter: disabled
+Enchantrix: disabled
+Enchantrix-Barker: disabled
+Informant: disabled
+Ace2: disabled
+Ace3: disabled
+MogIt: disabled

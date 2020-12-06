@@ -1,0 +1,28 @@
+
+KuiNameplatesGDB = {
+	["namespaces"] = {
+		["CastBar"] = {
+		},
+		["LowHealthColours"] = {
+		},
+		["CastWarnings"] = {
+		},
+		["TankMode"] = {
+		},
+		["Auras"] = {
+		},
+		["NemesisHelper"] = {
+		},
+		["ComboPoints"] = {
+		},
+		["ClassColours"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Vampirefang - Aman'Thul"] = "Vampirefang - Aman'Thul",
+	},
+	["profiles"] = {
+		["Vampirefang - Aman'Thul"] = {
+		},
+	},
+}

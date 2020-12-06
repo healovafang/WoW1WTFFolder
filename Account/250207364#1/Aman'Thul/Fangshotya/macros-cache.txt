@@ -1,0 +1,68 @@
+VER 3 0100000000000001 "ASSISTSTAR" "INV_MISC_QUESTIONMARK"
+#show Mend pet
+/assist starshotya
+/petattack
+END
+VER 3 0100000000000005 "Disengage" "INV_MISC_QUESTIONMARK"
+#showtooltip [modifier:shift] Deterrence; Disengage
+/stopcasting
+/cast [modifier:shift]  Deterrence; Disengage
+END
+VER 3 0100000000000003 "Explosive trap" "INV_MISC_QUESTIONMARK"
+#showtooltip explosive trap
+/cast [@cursor] explosive trap
+END
+VER 3 010000000000000C "Fiegn death" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast feign death
+END
+VER 3 010000000000001C "Flanking Strike" "INV_MISC_QUESTIONMARK"
+#showtooltip Flanking Strike
+/cast [nopet] Call Pet 3
+/cast Flanking Strike
+/use 14
+END
+VER 3 0100000000000002 "freeze trap" "INV_MISC_QUESTIONMARK"
+#showtooltip freezing trap
+/cast [@cursor] freezing trap
+/cast [@cursor] steel trap
+END
+VER 3 010000000000000B "master" "INV_MISC_QUESTIONMARK"
+#showtooltip master's call
+/cast [@mouseover,help,nodead][@player] master's call
+END
+VER 3 0100000000000006 "Misdirection" "INV_MISC_QUESTIONMARK"
+#showtooltip misdirection
+/cast [@mouseover][@pet] misdirection
+END
+VER 3 010000000000001D "Mongoose Bite" "INV_Misc_QuestionMark"
+#showtooltip Mongoose Bite
+/cast Mongoose Bite
+/use 14
+END
+VER 3 0100000000000011 "PetAttack" "ACHIEVEMENT_GUILD_RIDELIKETHEWIND"
+/petattack
+/cast Dash
+END
+VER 3 0100000000000013 "PetBite" "INV_MISC_MONSTERCLAW_03"
+/petattack
+/cast dash
+END
+VER 3 0100000000000012 "PetFollow" "ACHIEVEMENT_GUILD_RIDELIKETHEWIND"
+/petfollow
+/target fangshotya
+/cast master's call
+/targetlasttarget
+END
+VER 3 010000000000001A "PetPassive" "ABILITY_HUNTER_BEASTCALL"
+/petpassive
+END
+VER 3 010000000000000D "Spirit Mend" "Ability_Druid_BalanceofPower"
+/cast [@mouseover,help,pet=Moth] Dust of Life
+/cast frnetherwinds
+/cast Heart of the Phoenix
+END
+VER 3 010000000000001B "Tar Trap" "INV_Misc_QuestionMark"
+#showtooltip Tar Trap
+/cast [@cursor] Tar Trap
+END

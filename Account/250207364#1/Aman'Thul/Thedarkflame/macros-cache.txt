@@ -1,0 +1,75 @@
+VER 3 0100000000000001 "ajsdfnla" "Ability_Ambush"
+/assist
+/cast curse of the elements
+/targetlasttarget
+END
+VER 3 010000000000000D "Bane" "INV_MISC_QUESTIONMARK"
+#showtooltip [modifier:shift] Bane of agony; Bane of doom
+/cast [modifier:shift] Bane of agony; Bane of doom
+END
+VER 3 0100000000000010 "BOOM" "INV_MISC_QUESTIONMARK"
+#showtooltip dark soul
+/castsequence reset=110 grimoire: Felguard,Summon Doomguard(Guardian)
+END
+VER 3 0100000000000003 "BURN BABY" "INV_Misc_QuestionMark"
+#showtooltip demon soul
+/use Bottled Wishes
+/use Gloves of the Faceless Shroud
+/cast metamorphosis
+/cast demon soul
+END
+VER 3 010000000000000B "Felgaurd" "INV_MISC_QUESTIONMARK"
+#show summon felguard
+/cast soulburn
+/cast Summon felguard
+END
+VER 3 010000000000000A "Felhunter" "INV_MISC_QUESTIONMARK"
+#show summon felhunter
+/cast Soulburn
+/cast summon felhunter
+END
+VER 3 0100000000000002 "hellfire" "INV_Misc_QuestionMark"
+#showtooltop hellfire
+/cancelaura hellfire
+END
+VER 3 0100000000000006 "Immolation Aura" "INV_MISC_QUESTIONMARK"
+#showtooltip Immolation aura
+/cast Immolation aura
+END
+VER 3 0100000000000009 "interrupt" "INV_MISC_QUESTIONMARK"
+/cast spell lock
+END
+VER 3 010000000000000F "META" "INV_MISC_QUESTIONMARK"
+#showtooltip dark soul
+/use Volcanic potion
+/use 10
+/cast dark soul
+/cast command demon
+/cast Imp swarm
+END
+VER 3 0100000000000005 "Nuke" "INV_Misc_QuestionMark"
+#showtooltip [modifier:shift] incinerate; shadow bolt
+/cast [modifier:shift] incinerate; shadow bolt
+END
+VER 3 010000000000000E "petcommand" "INV_MISC_QUESTIONMARK"
+/petpassive
+/petattack
+END
+VER 3 0100000000000007 "seed of corrupti" "INV_MISC_QUESTIONMARK"
+#showtooltip seed of corruption
+/cast soulburn
+/cast seed of corruption
+END
+VER 3 0100000000000008 "Soulfire" "INV_MISC_QUESTIONMARK"
+#showtooltip soul fire
+/cast [modifier:shift] soulburn; soul fire
+/cast soul fire
+END
+VER 3 010000000000000C "SoulFire" "INV_MISC_QUESTIONMARK"
+#showtooltip soul fire
+/cast soulburn
+/cast soul fire
+END
+VER 3 0100000000000004 "target byuk" "INV_Misc_QuestionMark"
+/target lionsbarage
+END

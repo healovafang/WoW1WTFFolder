@@ -1,0 +1,148 @@
+
+AUCTIONATOR_SAVEDVARS = {
+	["_50000"] = 500,
+	["_2000"] = 100,
+	["_200000"] = 1000,
+	["_10000"] = 200,
+	["_1000000"] = 2500,
+	["_5000000"] = 10000,
+	["STARTING_DISCOUNT"] = 5,
+	["_500"] = 5,
+	["LOG_DE_DATA_X"] = true,
+}
+AUCTIONATOR_PRICING_HISTORY = {
+}
+AUCTIONATOR_SHOPPING_LISTS = {
+	{
+		["items"] = {
+			"word of agility", -- [1]
+			"foxflower", -- [2]
+			"fjarnskaggl", -- [3]
+			"Starlight Rose", -- [4]
+			"leystone ore", -- [5]
+		},
+		["isRecents"] = 1,
+		["name"] = "Recent Searches",
+	}, -- [1]
+	{
+		["items"] = {
+			"Greater Cosmic Essence", -- [1]
+			"Infinite Dust", -- [2]
+			"Dream Shard", -- [3]
+			"Abyss Crystal", -- [4]
+		},
+		["name"] = "Sample Shopping List #1",
+		["isSorted"] = false,
+	}, -- [2]
+}
+AUCTIONATOR_SHOPPING_LISTS_MIGRATED_V2 = true
+AUCTIONATOR_PRICE_DATABASE = {
+	["__dbversion"] = 4,
+	["Tichondrius_Alliance"] = {
+	},
+	["Aman'Thul_Alliance"] = {
+		["Enchant Cloak - Word of Agility"] = {
+			["mr"] = 17816382,
+			["sc"] = 3,
+			["H2146"] = 17816382,
+			["cc"] = 8,
+			["id"] = "128546:0:0:0:0",
+		},
+		["Headstriker Sword of Agility"] = {
+			["mr"] = 1000000,
+			["sc"] = 8,
+			["H2146"] = 1000000,
+			["cc"] = 2,
+			["id"] = "15251:0:0:-18:0",
+		},
+		["Fjarnskaggl"] = {
+			["H2140"] = 891509,
+			["cc"] = 7,
+			["id"] = "124104:0:0:0:0",
+			["mr"] = 891509,
+			["sc"] = 9,
+		},
+		["Starlight Rose"] = {
+			["mr"] = 1166666,
+			["cc"] = 7,
+			["H2138"] = 1166666,
+			["id"] = "124105:0:0:0:0",
+			["sc"] = 9,
+		},
+		["Fel Orc Brute Sword of Agility"] = {
+			["mr"] = 1682242,
+			["sc"] = 8,
+			["H2146"] = 1682242,
+			["cc"] = 2,
+			["id"] = "25169:0:0:-18:0",
+		},
+		["Massacre Sword of Agility"] = {
+			["mr"] = 508275,
+			["sc"] = 8,
+			["H2146"] = 508275,
+			["cc"] = 2,
+			["id"] = "15256:0:0:-18:0",
+		},
+		["Foxflower Seed"] = {
+			["H2147"] = 15000000,
+			["cc"] = 7,
+			["id"] = "129286:0:0:0:0",
+			["mr"] = 15000000,
+			["sc"] = 9,
+		},
+		["Starlight Rosedust"] = {
+			["mr"] = 106274,
+			["cc"] = 15,
+			["H2138"] = 106274,
+			["id"] = "129158:0:0:0:0",
+			["sc"] = 0,
+		},
+		["Foxflower"] = {
+			["mr"] = 850000,
+			["sc"] = 9,
+			["id"] = "124103:0:0:0:0",
+			["cc"] = 7,
+			["H2147"] = 850000,
+		},
+		["Foxflower Flux"] = {
+			["mr"] = 84499,
+			["sc"] = 11,
+			["id"] = "124436:0:0:0:0",
+			["cc"] = 7,
+			["H2147"] = 84499,
+		},
+		["Leystone Ore"] = {
+			["mr"] = 141414,
+			["cc"] = 7,
+			["id"] = "123918:0:0:0:0",
+			["sc"] = 7,
+			["H2131"] = 141414,
+		},
+	},
+}
+AUCTIONATOR_LAST_SCAN_TIME = nil
+AUCTIONATOR_TOONS = {
+	["Draaminyok"] = {
+		["firstSeen"] = 1485246695,
+		["firstVersion"] = "4.0.16",
+	},
+	["Fangshotya"] = {
+		["firstSeen"] = 1472964673,
+		["firstVersion"] = "4.0.11",
+	},
+	["Healovafang"] = {
+		["firstSeen"] = 1473440447,
+		["firstVersion"] = "4.0.11",
+	},
+}
+AUCTIONATOR_STACKING_PREFS = {
+}
+AUCTIONATOR_SCAN_MINLEVEL = 1
+AUCTIONATOR_DB_MAXITEM_AGE = 180
+AUCTIONATOR_DB_MAXHIST_AGE = -1
+AUCTIONATOR_DB_MAXHIST_DAYS = 5
+AUCTIONATOR_FS_CHUNK = nil
+AUCTIONATOR_DE_DATA = nil
+AUCTIONATOR_DE_DATA_BAK = nil
+ITEM_ID_VERSION = "3.2.6"
+AUCTIONATOR_SHOW_MAILBOX_TIPS = nil

@@ -1,0 +1,73 @@
+VER 3 0100000000000024 "CoW" "INV_Misc_QuestionMark"
+#showtooltip Clarity of will
+/cast [@mouseover,help,nodead][@target,help,nodead][@player] clarity of will
+END
+VER 3 0100000000000017 "Cricle of healin" "INV_MISC_QUESTIONMARK"
+#showtooltip circle of healing
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] circle of healing
+END
+VER 3 0100000000000015 "Flash Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip Flash heal
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Flash Heal
+END
+VER 3 0100000000000012 "Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip Heal
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Heal
+END
+VER 3 010000000000001B "Holy Word: Seren" "INV_Misc_QuestionMark"
+#showtooltip Holy Word: Serenity
+/cast [@mouseover,help,nodead] Holy Word: Serenity
+END
+VER 3 010000000000001C "Light of T'uure" "INV_Misc_QuestionMark"
+#showtooltip Light of T'uure
+/cast [@mouseover,help,nodead] Light of T'uure
+END
+VER 3 0100000000000020 "Light's Wrath" "INV_Misc_QuestionMark"
+#showtooltip Light's wrath
+/targetenemy [noharm]
+/cast Light's Wrath
+END
+VER 3 0100000000000011 "Penance" "INV_MISC_QUESTIONMARK"
+#showtooltip Penance
+/cast [@mouseover,help,nodead][@target,nodead,help][@target,nodead] Penance
+END
+VER 3 0100000000000018 "Plea" "INV_Misc_QuestionMark"
+#showtooltip Plea
+/cast [@mouseover,help,nodead][@target,help,nodead][@player] Plea
+END
+VER 3 0100000000000013 "PoH" "INV_MISC_QUESTIONMARK"
+#showtooltip Prayer of mending
+/cast [@mouseover,help,nodead][@target,help,nodead][@player] Prayer of mending
+END
+VER 3 010000000000001A "Power Word: Radi" "INV_Misc_QuestionMark"
+#showtooltip Power Word: Radiance
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Power Word: Radiance
+END
+VER 3 0100000000000010 "PW:S" "INV_MISC_QUESTIONMARK"
+#showtooltip Power Word: Shield
+/cast [@mouseover,help,nodead][@target,help,nodead][@player] Power Word: Shield
+END
+VER 3 0100000000000016 "Renew" "INV_MISC_QUESTIONMARK"
+#showtooltip Renew
+/cast [@mouseover,help,nodead][@target,help,nodead][@player] Renew
+END
+VER 3 010000000000001F "Schism" "INV_Misc_QuestionMark"
+#showtooltip schism
+/targetenemy [noharm]
+/cast schism
+END
+VER 3 0100000000000022 "Shadow word: p" "INV_Misc_QuestionMark"
+#showtooltip shadow word: pain
+/targetenemy [noharm]
+/cast shadow word: pain
+END
+VER 3 0100000000000023 "Shadowfiend" "INV_Misc_QuestionMark"
+#showtooltip shadowfiend
+/targetenemy [noharm]
+/cast shadowfiend
+END
+VER 3 010000000000001E "Smite" "INV_Misc_QuestionMark"
+#showtooltip smite
+/targetenemy [noharm]
+/cast smite
+END

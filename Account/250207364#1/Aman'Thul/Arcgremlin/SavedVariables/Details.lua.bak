@@ -1,0 +1,405 @@
+
+_detalhes_database = {
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Arcgremlin-Aman'Thul",
+	["last_realversion"] = 47,
+	["combat_counter"] = 2,
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
+			["enabled"] = true,
+			["captures"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+			},
+			["author"] = "Details! Team",
+			["last_encounter_hash"] = false,
+			["last_player"] = false,
+			["last_segment"] = false,
+			["last_combat_id"] = 0,
+			["show_icon"] = 1,
+			["last_boss"] = false,
+			["showing_type"] = 1,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["opened"] = 0,
+			["max_emote_segments"] = 3,
+			["show_icon"] = 5,
+			["hide_on_combat"] = false,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_CHART_VIEWER"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["tabs"] = {
+				{
+					["segment_type"] = 2,
+					["name"] = "Your Damage",
+					["captures"] = {
+						{
+							["capture_name"] = "Player Damage Done",
+							["color"] = {
+								1, -- [1]
+								1, -- [2]
+								1, -- [3]
+							},
+						}, -- [1]
+					},
+				}, -- [1]
+				["last_selected"] = 1,
+			},
+			["options"] = {
+				["show_method"] = 4,
+				["window_scale"] = 1,
+			},
+		},
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["useclasscolors"] = false,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["showamount"] = false,
+			["author"] = "Details! Team",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["realm_lastamt"] = 0,
+			["realm_history"] = {
+			},
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_RAID_POWER_BARS"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_YANP"] = {
+			["enabled"] = true,
+			["rightclick_closed"] = false,
+			["auto_open"] = true,
+			["hide_on_combat"] = true,
+			["author"] = "Details! Team",
+			["deaths_table"] = {
+			},
+			["shown_time"] = 30,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["max_segments"] = 10,
+			["combat_data"] = {
+			},
+			["cooldowns_timeline"] = {
+			},
+			["author"] = "Details! Team",
+			["debuff_timeline"] = {
+			},
+			["hide_on_combat"] = false,
+		},
+	},
+	["character_data"] = {
+		["logons"] = 1,
+	},
+	["tabela_instancias"] = {
+	},
+	["combat_id"] = 0,
+	["savedStyles"] = {
+		{
+			["hide_in_combat_alpha"] = 0,
+			["row_info"] = {
+				["textR_outline"] = false,
+				["textL_outline"] = true,
+				["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small",
+				["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+				["fixed_texture_color"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+				},
+				["fixed_text_color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+				["space"] = {
+					["right"] = -5,
+					["left"] = 3,
+					["between"] = 1,
+				},
+				["texture_background_class_color"] = true,
+				["texture"] = "Armory",
+				["font_face_file"] = "Fonts\\ARIALN.TTF",
+				["start_after_icon"] = true,
+				["fixed_texture_background_color"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+				},
+				["texture_background"] = "Armory",
+				["alpha"] = 1,
+				["no_icon"] = false,
+				["font_size"] = 12,
+				["texture_background_file"] = "Interface\\Addons\\NeedToKnow\\Textures\\Armory.tga",
+				["font_face"] = "Arial Narrow",
+				["texture_class_colors"] = true,
+				["height"] = 14,
+				["texture_file"] = "Interface\\Addons\\NeedToKnow\\Textures\\Armory.tga",
+				["textR_class_colors"] = false,
+				["textL_class_colors"] = false,
+			},
+			["show_statusbar"] = true,
+			["backdrop_texture"] = "Details Ground",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["menu_anchor"] = {
+				5, -- [1]
+				1, -- [2]
+				["side"] = 1,
+			},
+			["plugins_grow_direction"] = 2,
+			["closebutton_info"] = {
+				["color_overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+			},
+			["bg_r"] = 0.0941,
+			["auto_hide_menu"] = {
+				["left"] = false,
+				["right"] = false,
+			},
+			["wallpaper"] = {
+				["overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["texcoord"] = {
+					0, -- [1]
+					1, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["enabled"] = false,
+				["anchor"] = "all",
+				["height"] = 0,
+				["alpha"] = 0.5,
+				["width"] = 0,
+			},
+			["skin"] = "Default Skin",
+			["total_bar"] = {
+				["enabled"] = false,
+				["only_in_group"] = true,
+				["icon"] = "Interface\\ICONS\\INV_Sigil_Thorim",
+				["color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+			},
+			["instancebutton_info"] = {
+				["color_overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["text_size"] = 12,
+				["text_face"] = "Friz Quadrata TT",
+				["text_color"] = {
+					1, -- [1]
+					0.82, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+			},
+			["color_buttons"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["version"] = 3,
+			["bars_sort_direction"] = 1,
+			["statusbar_info"] = {
+				["alpha"] = 1,
+				["overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+			},
+			["auto_current"] = true,
+			["toolbar_side"] = 1,
+			["bg_g"] = 0.0941,
+			["tooltip"] = {
+				["n_abilities"] = 3,
+				["n_enemies"] = 3,
+			},
+			["bg_alpha"] = 0.7,
+			["attribute_text"] = {
+				["enabled"] = false,
+				["side"] = 1,
+				["text_size"] = 12,
+				["anchor"] = {
+					5, -- [1]
+					1, -- [2]
+				},
+				["text_color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["text_face"] = "Friz Quadrata TT",
+			},
+			["show_sidebars"] = true,
+			["instance_button_anchor"] = {
+				-27, -- [1]
+				1, -- [2]
+			},
+			["name"] = "Skin",
+			["stretch_button_side"] = 1,
+			["resetbutton_info"] = {
+				["always_small"] = false,
+				["text_color"] = {
+					1, -- [1]
+					0.82, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["color_overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["text_size"] = 12,
+				["text_color_small"] = {
+					1, -- [1]
+					0.82, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
+				["text_face"] = "Friz Quadrata TT",
+			},
+			["menu_alpha"] = {
+				["enabled"] = false,
+				["onleave"] = 1,
+				["iconstoo"] = true,
+				["onenter"] = 1,
+			},
+			["bars_grow_direction"] = 1,
+			["bg_b"] = 0.0941,
+		}, -- [1]
+	},
+	["savedbuffs"] = {
+	},
+	["tabela_historico"] = {
+		["tabelas"] = {
+		},
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["last_version"] = "v3.2.4a",
+	["last_instance_time"] = 0,
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = 0,
+					["x"] = -0.0001220703125,
+					["w"] = 320,
+					["h"] = 129.999984741211,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1418288255,
+		["last_version"] = 7,
+	},
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["last_instance_id"] = 0,
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
+}

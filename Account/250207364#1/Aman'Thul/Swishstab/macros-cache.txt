@@ -1,0 +1,51 @@
+VER 3 010000000000000A "ADRENALINE RUSH" "INV_MISC_QUESTIONMARK"
+#showtooltip adrenaline rush
+/cast adrenaline rush
+/cast shadow blades
+END
+VER 3 0100000000000003 "Ambush" "INV_Misc_QuestionMark"
+#show ambush
+/cast premeditation
+/cast ambush
+END
+VER 3 010000000000000C "AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip [modifier:shift] Crimson Tempest; Fan of knives
+/cast [modifier:shift] Crimson Tempest; Fan of knives
+END
+VER 3 0100000000000001 "backstab" "Ability_BackStab"
+/equipslot 16 Balanced Heartseeker
+/cast backstab
+END
+VER 3 0100000000000004 "Garrote" "INV_Misc_QuestionMark"
+#show garrote
+/cast vanish
+/cast garrote
+END
+VER 3 0100000000000007 "Poison1" "INV_MISC_QUESTIONMARK"
+/use instant poison
+/use Fear
+END
+VER 3 0100000000000008 "Poison2" "INV_MISC_QUESTIONMARK"
+/use deadly poison
+/use Vengeance
+END
+VER 3 0100000000000009 "Poison3" "INV_MISC_QUESTIONMARK"
+/use deadly poison
+/use Thorns of the Dying Day
+END
+VER 3 010000000000000B "ShadAmb" "INV_MISC_QUESTIONMARK"
+#showtooltip [modifier:shift] Shadow Dance; Ambush
+/cast [modifier:shift] Shadow Dance; Ambush
+END
+VER 3 0100000000000002 "Sinister strike" "Spell_Shadow_RitualOfSacrifice"
+/equipslot 16 Venerable Dal'Rend's Sacred Charge
+/cast sinister strike
+END
+VER 3 0100000000000005 "Tricks" "INV_MISC_QUESTIONMARK"
+#showtooltip  tricks of the trade
+/cast [@mouseover,help,nodead][@target,help,nodead]  tricks of the trade
+END
+VER 3 0100000000000006 "VENDETTA" "INV_MISC_QUESTIONMARK"
+#showtooltip vendetta
+/cast vendetta
+END

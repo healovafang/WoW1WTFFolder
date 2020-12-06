@@ -1,0 +1,14 @@
+
+KuiNameplatesCoreSaved = {
+	["216_HEALTH_TRANSITION"] = true,
+	["2162_PERSONAL_FRAME_SIZE_TRANSITION"] = true,
+	["profiles"] = {
+		["default"] = {
+			["frame_height"] = 20,
+			["nameonly_enemies"] = false,
+			["bar_texture"] = "Blizzard Raid Bar",
+		},
+		["Healovafang"] = {
+		},
+	},
+}

@@ -1,0 +1,7 @@
+
+_detalhes_databaseTimeAttack = {
+	["dps"] = 0,
+	["time"] = 180,
+	["history"] = {
+	},
+}

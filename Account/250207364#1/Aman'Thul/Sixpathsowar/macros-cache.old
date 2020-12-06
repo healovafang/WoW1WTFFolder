@@ -1,0 +1,3 @@
+MACRO 16777217 "elementium ore" "INV_MISC_QUESTIONMARK"
+/use elementium ore
+END

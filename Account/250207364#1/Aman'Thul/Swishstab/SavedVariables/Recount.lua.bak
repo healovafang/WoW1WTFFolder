@@ -1,0 +1,344 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Healing Stream Totem <Störmhitz>"] = {
+			["GUID"] = "0xF1300DC70019B5B8",
+			["LastEventHealth"] = {
+				"???", -- [1]
+			},
+			["LastEventType"] = {
+				"MISC", -- [1]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["LastFlags"] = 2600,
+			["DeathLogs"] = {
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Healing Stream Totem <Störmhitz> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1384519314,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [1]
+			},
+			["Owner"] = "Störmhitz",
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+			},
+			["LastEvents"] = {
+				"Healing Stream Totem <Störmhitz> dies.", -- [1]
+			},
+			["Name"] = "Healing Stream Totem",
+			["TimeLast"] = {
+				["OVERALL"] = 1384519312,
+				["DeathCount"] = 1384519312,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				27584.42, -- [1]
+			},
+			["UnitLockout"] = 1384519312,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DeathCount"] = 1,
+				},
+				["OverallData"] = {
+					["DeathCount"] = 1,
+				},
+			},
+		},
+		["Healing Tide Totem <Störmhitz>"] = {
+			["GUID"] = "0xF130E9740019B4CF",
+			["LastEventHealth"] = {
+				"???", -- [1]
+			},
+			["LastEventType"] = {
+				"MISC", -- [1]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["DeathLogs"] = {
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Healing Tide Totem <Störmhitz> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1384519325,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [1]
+			},
+			["Owner"] = "Störmhitz",
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+			},
+			["LastEvents"] = {
+				"Healing Tide Totem <Störmhitz> dies.", -- [1]
+			},
+			["Name"] = "Healing Tide Totem",
+			["TimeLast"] = {
+				["OVERALL"] = 1384519323,
+				["DeathCount"] = 1384519323,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				27595.357, -- [1]
+			},
+			["UnitLockout"] = 1384519323,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DeathCount"] = 1,
+				},
+				["OverallData"] = {
+					["DeathCount"] = 1,
+				},
+			},
+		},
+		["Stormlash Totem <Störmhitz>"] = {
+			["GUID"] = "0xF130F2320019B4D8",
+			["LastEventHealth"] = {
+				"???", -- [1]
+			},
+			["LastEventType"] = {
+				"MISC", -- [1]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["DeathLogs"] = {
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Stormlash Totem <Störmhitz> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1384519325,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [1]
+			},
+			["Owner"] = "Störmhitz",
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+			},
+			["LastEvents"] = {
+				"Stormlash Totem <Störmhitz> dies.", -- [1]
+			},
+			["Name"] = "Stormlash Totem",
+			["TimeLast"] = {
+				["OVERALL"] = 1384519323,
+				["DeathCount"] = 1384519323,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				27594.922, -- [1]
+			},
+			["UnitLockout"] = 1384519323,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DeathCount"] = 1,
+				},
+				["OverallData"] = {
+					["DeathCount"] = 1,
+				},
+			},
+		},
+		["Swishstab"] = {
+			["GUID"] = "0x03000000060A4BB4",
+			["LastEventHealth"] = {
+				"205285 (100%)", -- [1]
+				"205285 (100%)", -- [2]
+				"205285 (100%)", -- [3]
+				"205285 (100%)", -- [4]
+				"205285 (100%)", -- [5]
+				"205285 (100%)", -- [6]
+				"205285 (100%)", -- [7]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+			},
+			["enClass"] = "ROGUE",
+			["unit"] = "Swishstab",
+			["level"] = 88,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				1.651849867257715, -- [1]
+				13.32342840441338, -- [2]
+				7.981586574761916, -- [3]
+				13.84368073653701, -- [4]
+				0.2114134008817011, -- [5]
+				9.811238034927053, -- [6]
+				0.4501059502642668, -- [7]
+			},
+			["type"] = "Self",
+			["Owner"] = false,
+			["NextEventNum"] = 8,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+			},
+			["LastEvents"] = {
+				"Störmhitz Restorative Mists Swishstab Hit +3391 (3391 overheal)", -- [1]
+				"Störmhitz Restorative Mists Swishstab Hit +27351 (27351 overheal)", -- [2]
+				"Störmhitz Restorative Mists Swishstab Hit +16385 (16385 overheal)", -- [3]
+				"Störmhitz Restorative Mists Swishstab Hit +28419 (28419 overheal)", -- [4]
+				"Störmhitz Restorative Mists Swishstab Hit +434 (434 overheal)", -- [5]
+				"Störmhitz Restorative Mists Swishstab Hit +20141 (20141 overheal)", -- [6]
+				"Störmhitz Restorative Mists Swishstab Hit +924 (924 overheal)", -- [7]
+			},
+			["Name"] = "Swishstab",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+			},
+			["LastEventTimes"] = {
+				27592.536, -- [1]
+				27593.347, -- [2]
+				27594.5, -- [3]
+				27595.357, -- [4]
+				27596.51, -- [5]
+				27598.521, -- [6]
+				27599.377, -- [7]
+			},
+			["Fights"] = {
+			},
+			["UnitLockout"] = 1384519320,
+			["LastActive"] = 1384519327,
+		},
+		["Störmhitz"] = {
+			["GUID"] = "0x03000000070F1B40",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["Healing Tide Totem"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130E9740019B4CF",
+					},
+				},
+				["Healing Stream Totem"] = {
+					["LatestGuardian"] = 1,
+					["GUIDs"] = {
+						"0xF1300DC70019B5B8", -- [1]
+						[0] = "0xF1300DC70019B452",
+					},
+				},
+				["Stormlash Totem"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130F2320019B4D8",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "Störmhitz",
+			["Pet"] = {
+				"Healing Stream Totem <Störmhitz>", -- [1]
+				"Healing Tide Totem <Störmhitz>", -- [2]
+				"Stormlash Totem <Störmhitz>", -- [3]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1384519299,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

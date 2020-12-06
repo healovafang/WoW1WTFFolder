@@ -1,0 +1,57 @@
+VER 3 0100000000000013 "CDs" "INV_Misc_QuestionMark"
+#showtooltip berserk
+/castsequence Incarnation: King of the Jungle, berserk
+END
+VER 3 0100000000000014 "Dispel" "INV_Misc_QuestionMark"
+#showtooltip Remove Corruption
+/cast [@mouseover][@target][@player]remove corruption
+END
+VER 3 010000000000000E "Healing Touch" "INV_MISC_QUESTIONMARK"
+#showtooltip healing touch
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] healing touch
+END
+VER 3 010000000000000F "IRON BARK" "INV_MISC_QUESTIONMARK"
+#showtooltip ironbark
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] ironbark
+END
+VER 3 0100000000000003 "Lifebloom" "INV_MISC_QUESTIONMARK"
+#showtooltip lifebloom
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] lifebloom
+END
+VER 3 0100000000000009 "Natures swift" "INV_MISC_QUESTIONMARK"
+#showtooltip Nature's swiftness
+/cast nature's swiftness
+/use Tharbek's Lucky Pebble
+END
+VER 3 0100000000000012 "Rebirth" "INV_MISC_QUESTIONMARK"
+#showtooltip Rebirth
+/cast [@mouseover,help][@target,help] Rebirth
+END
+VER 3 0100000000000007 "Regrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip Regrowth
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Regrowth
+END
+VER 3 0100000000000002 "Rejuv" "INV_MISC_QUESTIONMARK"
+#showtooltip Rejuvenation
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Rejuvenation
+END
+VER 3 0100000000000008 "Remove Corruptio" "INV_MISC_QUESTIONMARK"
+#showtooltip nature's cure
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] nature's cure
+END
+VER 3 0100000000000015 "Revive" "INV_Misc_QuestionMark"
+#showtooltip Revive
+/cast [@mouseover][@target] Revive
+END
+VER 3 0100000000000016 "Sprint" "INV_Misc_QuestionMark"
+#showtooltip Dash
+/castsequence reset=180 Dash, Darkflight
+END
+VER 3 0100000000000006 "Swiftmend" "INV_MISC_QUESTIONMARK"
+#showtooltip swiftmend
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] swiftmend
+END
+VER 3 0100000000000004 "Wildgrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip wild growth
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] wild growth
+END

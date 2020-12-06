@@ -1,0 +1,72 @@
+VER 3 0100000000000015 "Avenging Wrath" "INV_MISC_QUESTIONMARK"
+#showtooltip Avenging Wrath
+/cast Avenging Wrath
+END
+VER 3 0100000000000006 "beacon of light" "INV_MISC_QUESTIONMARK"
+#showtooltip beacon of light
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] beacon of light
+END
+VER 3 0100000000000018 "Cleanse Tox" "INV_MISC_QUESTIONMARK"
+#showtooltip Cleanse Toxins
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Cleanse Toxins
+END
+VER 3 0100000000000011 "CleanseTox" "INV_Misc_QuestionMark"
+#showtooltip Cleanse
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Cleanse
+END
+VER 3 0100000000000016 "Concentrated Fla" "INV_MISC_QUESTIONMARK"
+#showtooltip concentrated flame
+/cast [@mouseover,help.nodead][@target,nodead][@focus,help,nodead][@player] concentrated flame
+END
+VER 3 0100000000000001 "Flash of light" "INV_MISC_QUESTIONMARK"
+#showtooltip flash of light
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] flash of light
+END
+VER 3 0100000000000009 "Hand of Freedom" "INV_MISC_QUESTIONMARK"
+#showtooltip Blessing of freedom
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Blessing of freedom
+END
+VER 3 0100000000000013 "Hand of the Prot" "INV_MISC_QUESTIONMARK"
+#showtooltip Hand of the Protector
+/cast /cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Hand of the Protector
+END
+VER 3 0100000000000017 "Heart Essence" "INV_MISC_QUESTIONMARK"
+#showtooltip Heart Essence
+/cast [@mouseover,nodead][@target,nodead][@focus,nodead][@player] Heart Essence
+END
+VER 3 0100000000000007 "holy light" "INV_MISC_QUESTIONMARK"
+#showtooltip holy light
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] holy light
+END
+VER 3 0100000000000010 "Holy prism" "INV_MISC_QUESTIONMARK"
+#showtooltip holy prism
+/cast [@mouseover,help.nodead][@target,nodead][@focus,help,nodead][@player] holy prism
+END
+VER 3 0100000000000004 "Holy shock" "INV_MISC_QUESTIONMARK"
+#showtooltip holy shock
+/cast [@mouseover,exists] [] Holy Shock
+END
+VER 3 010000000000000A "HoP" "INV_MISC_QUESTIONMARK"
+#showtooltip Blessing of protection
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Blessing of protection
+END
+VER 3 0100000000000012 "Light of Matyr" "INV_Misc_QuestionMark"
+#showtooltip light of the martyr
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] light of the martyr
+END
+VER 3 0100000000000003 "LOH" "INV_MISC_QUESTIONMARK"
+#showtooltip lay on hands
+/cast [@mouseover,help][@target,help][@focus,help][@player] lay on hands
+END
+VER 3 010000000000000B "Sac" "INV_MISC_QUESTIONMARK"
+#showtooltip blessing of sacrifice
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] blessing of sacrifice
+END
+VER 3 0100000000000019 "Trink" "INV_MISC_QUESTIONMARK"
+#showtooltip 13
+/use 13
+END
+VER 3 010000000000001A "Trinket14" "INV_MISC_QUESTIONMARK"
+#showtooltip 14
+/use [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] 14
+END

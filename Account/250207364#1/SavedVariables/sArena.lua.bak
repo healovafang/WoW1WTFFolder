@@ -1,0 +1,10 @@
+
+sArena3DB = {
+	["profileKeys"] = {
+		["Prettyfang - Aman'Thul"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
