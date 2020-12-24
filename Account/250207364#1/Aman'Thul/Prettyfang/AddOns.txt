@@ -150,5 +150,5 @@ OPie_Classic: disabled
 WeakAurasArchive: enabled
 oUF_Lybrial: disabled
 AstralKeys: enabled
-MythicDungeonTools: disabled
+MythicDungeonTools: enabled
 RareScanner: enabled

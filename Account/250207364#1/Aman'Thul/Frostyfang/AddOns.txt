@@ -8,7 +8,7 @@ Prat-3.0_Libraries: enabled
 Details: enabled
 AstralKeys: enabled
 AskMrRobot: disabled
-MythicDungeonTools: disabled
+MythicDungeonTools: enabled
 OPie: disabled
 RareScanner: enabled
 TinyPad: disabled

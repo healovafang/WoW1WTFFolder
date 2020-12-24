@@ -2707,6 +2707,80 @@ DCS_ClassSpecDB = {
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
 		}, -- [42]
+		{
+			["statKey"] = "STAGGER",
+			["hideAt"] = 0,
+			["roles"] = {
+				"TANK", -- [1]
+			},
+		}, -- [43]
+		{
+			["statKey"] = "RATING_2V2",
+			["hideAt"] = 0,
+		}, -- [44]
+		{
+			["statKey"] = "HONOR_PROGRESS",
+			["hideAt"] = 0,
+		}, -- [45]
+		{
+			["statKey"] = "CONQUEST_PROGRESS",
+			["hideAt"] = 0,
+		}, -- [46]
+		{
+			["statKey"] = "RATING_RBG",
+			["hideAt"] = 0,
+		}, -- [47]
+		{
+			["statKey"] = "RATING_3V3",
+			["hideAt"] = 0,
+		}, -- [48]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [49]
+		{
+			["statKey"] = "RatingCategory",
+		}, -- [50]
+		{
+			["statKey"] = "CR_CORRUPTION_RESISTANCE",
+			["hideAt"] = 0,
+		}, -- [51]
+		{
+			["statKey"] = "CR_CORRUPTION",
+			["hideAt"] = 0,
+		}, -- [52]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [53]
+		{
+			["statKey"] = "CorruptionCategory",
+		}, -- [54]
+		{
+			["statKey"] = "CR_TOTAL_CORRUPTION",
+			["hideAt"] = 0,
+		}, -- [55]
+		{
+			["statKey"] = "HONOR_LEVEL",
+			["hideAt"] = 0,
+		}, -- [56]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [57]
+		{
+			["statKey"] = "HonorCategory",
+		}, -- [58]
+		{
+			["statKey"] = "ConquestCategory",
+		}, -- [59]
+		{
+			["statKey"] = "DefenseCategory",
+		}, -- [60]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [61]
 		["uniqueKey"] = "Fangshotya:Aman'Thul:2",
 	},
 	["Fangdangle:Aman'Thul:1"] = {

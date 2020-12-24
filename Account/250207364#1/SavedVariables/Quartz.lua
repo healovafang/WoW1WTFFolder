@@ -21,7 +21,16 @@ Quartz3DB = {
 		},
 		["Range"] = {
 		},
-		["EnemyCasts"] = {
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["w"] = 200,
+					["y"] = -69.49992370605469,
+					["point"] = "CENTER",
+					["x"] = -328.0002136230469,
+					["texture"] = "Blizzard Raid Bar",
+				},
+			},
 		},
 		["GCD"] = {
 		},
@@ -54,16 +63,7 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Player"] = {
-			["profiles"] = {
-				["Default"] = {
-					["w"] = 200,
-					["y"] = -69.49992370605469,
-					["point"] = "CENTER",
-					["x"] = -328.0002136230469,
-					["texture"] = "Blizzard Raid Bar",
-				},
-			},
+		["EnemyCasts"] = {
 		},
 		["Latency"] = {
 		},

@@ -8,7 +8,7 @@ Prat-3.0: enabled
 AdvancedInterfaceOptions: enabled
 Details: enabled
 AstralKeys: enabled
-MythicDungeonTools: disabled
+MythicDungeonTools: enabled
 OPie: disabled
 RareScanner: enabled
 TinyPad: disabled

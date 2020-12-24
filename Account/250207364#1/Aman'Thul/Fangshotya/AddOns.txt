@@ -163,7 +163,7 @@ sArena: disabled
 OPie_Classic: disabled
 oUF_Lybrial: disabled
 AstralKeys: enabled
-MythicDungeonTools: disabled
+MythicDungeonTools: enabled
 RareScanner: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
