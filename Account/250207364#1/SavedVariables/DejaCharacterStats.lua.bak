@@ -1354,7 +1354,56 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
+			["hideAt"] = 0,
+			["roles"] = {
+				"TANK", -- [1]
+			},
 		}, -- [49]
+		{
+			["statKey"] = "RATING_2V2",
+			["hideAt"] = 0,
+		}, -- [50]
+		{
+			["statKey"] = "HONOR_PROGRESS",
+			["hideAt"] = 0,
+		}, -- [51]
+		{
+			["statKey"] = "CONQUEST_PROGRESS",
+			["hideAt"] = 0,
+		}, -- [52]
+		{
+			["statKey"] = "RATING_RBG",
+			["hideAt"] = 0,
+		}, -- [53]
+		{
+			["statKey"] = "RATING_3V3",
+			["hideAt"] = 0,
+		}, -- [54]
+		{
+			["statKey"] = "CR_CORRUPTION_RESISTANCE",
+			["hideAt"] = 0,
+		}, -- [55]
+		{
+			["statKey"] = "CR_CORRUPTION",
+			["hideAt"] = 0,
+		}, -- [56]
+		{
+			["statKey"] = "CorruptionCategory",
+		}, -- [57]
+		{
+			["statKey"] = "CR_TOTAL_CORRUPTION",
+			["hideAt"] = 0,
+		}, -- [58]
+		{
+			["statKey"] = "HONOR_LEVEL",
+			["hideAt"] = 0,
+		}, -- [59]
+		{
+			["statKey"] = "HonorCategory",
+		}, -- [60]
+		{
+			["statKey"] = "ConquestCategory",
+		}, -- [61]
 		["uniqueKey"] = "Vampirefang:Aman'Thul:2",
 	},
 	["Prettyfang:Aman'Thul:3"] = {
@@ -4201,7 +4250,56 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
+			["hideAt"] = 0,
+			["roles"] = {
+				"TANK", -- [1]
+			},
 		}, -- [49]
+		{
+			["statKey"] = "RATING_2V2",
+			["hideAt"] = 0,
+		}, -- [50]
+		{
+			["statKey"] = "HONOR_PROGRESS",
+			["hideAt"] = 0,
+		}, -- [51]
+		{
+			["statKey"] = "CONQUEST_PROGRESS",
+			["hideAt"] = 0,
+		}, -- [52]
+		{
+			["statKey"] = "RATING_RBG",
+			["hideAt"] = 0,
+		}, -- [53]
+		{
+			["statKey"] = "RATING_3V3",
+			["hideAt"] = 0,
+		}, -- [54]
+		{
+			["statKey"] = "CR_CORRUPTION_RESISTANCE",
+			["hideAt"] = 0,
+		}, -- [55]
+		{
+			["statKey"] = "CR_CORRUPTION",
+			["hideAt"] = 0,
+		}, -- [56]
+		{
+			["statKey"] = "CorruptionCategory",
+		}, -- [57]
+		{
+			["statKey"] = "CR_TOTAL_CORRUPTION",
+			["hideAt"] = 0,
+		}, -- [58]
+		{
+			["statKey"] = "HONOR_LEVEL",
+			["hideAt"] = 0,
+		}, -- [59]
+		{
+			["statKey"] = "HonorCategory",
+		}, -- [60]
+		{
+			["statKey"] = "ConquestCategory",
+		}, -- [61]
 		["uniqueKey"] = "Vampirefang:Aman'Thul:1",
 	},
 	["Fangshotya:Aman'Thul:3"] = {

@@ -1,35 +1,6 @@
-VER 3 0100000000000001 "AOE" "INV_MISC_QUESTIONMARK"
-#showtooltip [modifier:shift] death and decay; blood boil
-/cast [modifier:shift] death and decay; blood boil
-END
 VER 3 0100000000000007 "Death Coil" "INV_MISC_QUESTIONMARK"
 #showtooltip Death Coil
 /cast [@mouseover,help,nodead][@target,help,nodead] Death Coil
-END
-VER 3 0100000000000004 "death pact" "INV_MISC_QUESTIONMARK"
-#showtooltip death pact
-/cast raise dead
-/cast death pact
-END
-VER 3 0100000000000005 "deathsyphon" "INV_MISC_QUESTIONMARK"
-/tar horridon
-/cast death siphon
-/targetlasttarget
-END
-VER 3 010000000000000D "Healthstone" "INV_MISC_QUESTIONMARK"
-#showtooltip healthstone
-/use healthstone
-/use Master Healing Potion
-END
-VER 3 010000000000000C "IBF" "INV_MISC_QUESTIONMARK"
-#showtooltip icebound fortitude
-/cast icebound fortitude
-/use Potion of the Mountains
-END
-VER 3 0100000000000010 "instarez" "INV_MISC_QUESTIONMARK"
-/run RepopMe()
-/run AcceptResurrect()
-/run AcceptXPLoss()
 END
 VER 3 0100000000000002 "lichborne" "INV_MISC_QUESTIONMARK"
 #showtooltip lichborne
@@ -50,16 +21,6 @@ VER 3 010000000000000A "Marker3" "Ability_Iyyokuk_Drum_Purple"
 /click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
 /click DropDownList1Button6
 END
-VER 3 0100000000000003 "Pillar of frost" "INV_MISC_QUESTIONMARK"
-#showtooltip pillar of frost
-/cast pillar of frost
-/cast raise dead
-END
-VER 3 0100000000000011 "Presence" "INV_MISC_QUESTIONMARK"
-#showtooltip blood presence
-/cast Unholy Presence
-/cast Blood Presence
-END
 VER 3 010000000000000F "Raise Ally" "INV_MISC_QUESTIONMARK"
 #showtooltip raise ally
 /cast [@mouseover] raise ally
@@ -67,9 +28,6 @@ END
 VER 3 010000000000000B "RemoveMarkers" "INV_MISC_QUESTIONMARK"
 /click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
 /click DropDownList1Button6
-END
-VER 3 0100000000000006 "sit" "INV_MISC_QUESTIONMARK"
-/sit
 END
 VER 3 010000000000000E "skull" "ABILITY_CREATURE_CURSED_05"
 /run SetRaidTarget("target", 8)

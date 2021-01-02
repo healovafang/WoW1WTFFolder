@@ -2,6 +2,11 @@ VER 3 010000000000001B "Cap Totem" "INV_MISC_QUESTIONMARK"
 #showtooltip capacitor totem
 /cast [@cursor] capacitor totem
 END
+VER 3 010000000000001F "Chain Harvest" "INV_MISC_QUESTIONMARK"
+#showtooltip Chain Harvest
+#showtooltip Chain Heal
+/cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Chain Harvest
+END
 VER 3 010000000000000B "Chain Heal" "INV_MISC_QUESTIONMARK"
 #showtooltip Chain Heal
 /cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Chain Heal
@@ -38,9 +43,21 @@ VER 3 0100000000000009 "Healing Wave" "INV_MISC_QUESTIONMARK"
 #showtooltip Healing Wave
 /cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Healing Wave
 END
+VER 3 0100000000000021 "Hex Mouseover" "INV_MISC_QUESTIONMARK"
+#showtooltip Hex
+/cast [@mouseover,harm,nodead][@target,harm,nodead] Hex
+END
+VER 3 0100000000000022 "Link" "INV_MISC_QUESTIONMARK"
+#showtooltip Spirit Link Totem
+/cast [@cursor] Spirit Link Totem
+END
 VER 3 010000000000001D "Purify Spirit" "INV_MISC_QUESTIONMARK"
 #showtooltip purify spirit
 /cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Purify Spirit
+END
+VER 3 0100000000000020 "PVP Earth Shield" "INV_MISC_QUESTIONMARK"
+#showtooltip Earth Shield
+/cast [@focus,help,nodead][@mouseover,help,nodead][@target,help,nodead][@player] Earth Shield
 END
 VER 3 0100000000000007 "Riptide" "INV_MISC_QUESTIONMARK"
 #showtooltip Riptide
@@ -51,6 +68,7 @@ VER 3 010000000000000C "Unleash Elements" "INV_MISC_QUESTIONMARK"
 /cast [@mouseover,help,nodead][@target,help,nodead][@focus,help,nodead][@player] Unleash Life
 END
 VER 3 0100000000000011 "windshear" "INV_MISC_QUESTIONMARK"
+#showtooltip wind shear
 /stopcasting
-/cast wind shear
+/cast [@mouseover,harm,nodead][@target,harm,nodead] wind shear
 END

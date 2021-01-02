@@ -40,15 +40,15 @@ VER 3 0100000000000002 "lichborne" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000008 "Marker1" "Ability_Iyyokuk_Drum_Blue"
 /click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
-/click DropDownList1Button1
+/click DropDownList1Button3
 END
 VER 3 0100000000000009 "Marker2" "Ability_Iyyokuk_Drum_Green"
 /click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
-/click DropDownList1Button2
+/click DropDownList1Button5
 END
 VER 3 010000000000000A "Marker3" "Ability_Iyyokuk_Drum_Purple"
 /click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
-/click DropDownList1Button3
+/click DropDownList1Button6
 END
 VER 3 0100000000000003 "Pillar of frost" "INV_MISC_QUESTIONMARK"
 #showtooltip pillar of frost

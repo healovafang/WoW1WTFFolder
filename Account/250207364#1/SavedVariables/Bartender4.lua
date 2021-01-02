@@ -22,15 +22,6 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Thewhitefang - Aman'Thul"] = {
-					["enabled"] = true,
-					["position"] = {
-						["y"] = 22.49998092651367,
-						["x"] = -314.4999389648438,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
 				["Fangshotya - Aman'Thul"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -39,6 +30,24 @@ Bartender4DB = {
 						["x"] = -314.4999389648438,
 						["point"] = "BOTTOM",
 					},
+				},
+				["Vampirefang - Aman'Thul"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 22.49998092651367,
+						["x"] = -314.4999389648438,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Thewhitefang - Aman'Thul"] = {
+					["enabled"] = true,
+					["position"] = {
+						["y"] = 22.49998092651367,
+						["x"] = -314.4999389648438,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -513,63 +522,63 @@ Bartender4DB = {
 							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 37.399997806549,
-								["x"] = -0.850025963783992,
+								["y"] = 182.0812474778468,
+								["x"] = -0.07307136040249596,
 								["point"] = "BOTTOMLEFT",
-								["scale"] = 0.850000023841858,
+								["scale"] = 0.8500000238418579,
 							},
 						}, -- [1]
 						{
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 41.9999961853027,
-								["x"] = 417.991882324219,
-								["point"] = "BOTTOMLEFT",
+								["y"] = -189.499908447266,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
 							},
 						}, -- [2]
 						{
 							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 118.641422547773,
-								["x"] = -1.2750183761125,
+								["y"] = 75.64131224131052,
+								["x"] = -1.275017869473004,
 								["point"] = "BOTTOMLEFT",
-								["scale"] = 0.850000023841858,
+								["scale"] = 0.8500000238418579,
 							},
 						}, -- [3]
 						{
 							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 184.453584885698,
-								["x"] = -1.2750183761125,
+								["y"] = 145.975467961689,
+								["x"] = -0.2749861853960312,
 								["point"] = "BOTTOMLEFT",
-								["scale"] = 0.850000023841858,
+								["scale"] = 0.8500000238418579,
 							},
 						}, -- [4]
 						{
-							["rows"] = 3,
 							["padding"] = 5,
+							["rows"] = 3,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 184.521658146537,
-								["x"] = 431.066360379191,
+								["y"] = 156.5217225688684,
+								["x"] = 423.0664604706362,
 								["point"] = "BOTTOMLEFT",
-								["scale"] = 0.986136496067047,
+								["scale"] = 0.9861364960670471,
 							},
 						}, -- [5]
 						{
 							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 73.318079143919,
-								["x"] = -0.850025963783992,
+								["y"] = 40.31784571248909,
+								["x"] = -0.8500260651118907,
 								["point"] = "BOTTOMLEFT",
-								["scale"] = 0.850000023841858,
+								["scale"] = 0.8500000238418579,
 							},
 						}, -- [6]
 						{
-							["enabled"] = true,
 							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
@@ -590,17 +599,20 @@ Bartender4DB = {
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -36.999755859375,
-								["x"] = -200.983413696289,
-								["point"] = "TOPLEFT",
+								["y"] = -137.1220703125,
+								["x"] = 34.03403472900391,
+								["point"] = "LEFT",
 							},
 						}, -- [9]
 						{
+							["enabled"] = true,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 3.00006103515625,
-								["x"] = -200.983413696289,
-								["point"] = "TOPLEFT",
+								["y"] = 111.1878006651205,
+								["x"] = -1.274989700317093,
+								["point"] = "BOTTOMLEFT",
+								["scale"] = 0.8500000238418579,
 							},
 						}, -- [10]
 					},
@@ -1181,8 +1193,8 @@ Bartender4DB = {
 							},
 						}, -- [4]
 						{
-							["rows"] = 3,
 							["padding"] = 5,
+							["rows"] = 3,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 156.5217225688684,
@@ -2140,9 +2152,9 @@ Bartender4DB = {
 				["Vampirefang - Aman'Thul"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 99.7091445922852,
-						["x"] = -335.223327636719,
-						["point"] = "BOTTOM",
+						["y"] = 36,
+						["x"] = 444.058837890625,
+						["point"] = "BOTTOMLEFT",
 						["scale"] = 1,
 					},
 				},
@@ -2700,14 +2712,13 @@ Bartender4DB = {
 			["outofrange"] = "hotkey",
 		},
 		["Vampirefang - Aman'Thul"] = {
-			["focuscastmodifier"] = false,
+			["snapping"] = false,
 			["minimapIcon"] = {
-				["minimapPos"] = 220.667723185162,
-				["hide"] = true,
+				["minimapPos"] = 247.217838916525,
 			},
 			["buttonlock"] = true,
-			["onkeydown"] = true,
 			["blizzardVehicle"] = true,
+			["focuscastmodifier"] = false,
 			["outofrange"] = "hotkey",
 		},
 		["Sixpathsowar - Aman'Thul"] = {
@@ -2749,22 +2760,22 @@ Bartender4DB = {
 		},
 		["Thewhitefang - Aman'Thul"] = {
 			["blizzardVehicle"] = true,
-			["snapping"] = false,
-			["buttonlock"] = true,
 			["focuscastmodifier"] = false,
+			["buttonlock"] = true,
+			["snapping"] = false,
 			["minimapIcon"] = {
 				["minimapPos"] = 247.217838916525,
 			},
 			["outofrange"] = "hotkey",
 		},
 		["Fangshotya - Aman'Thul"] = {
-			["snapping"] = false,
+			["focuscastmodifier"] = false,
 			["minimapIcon"] = {
 				["minimapPos"] = 247.217838916525,
 			},
 			["buttonlock"] = true,
 			["blizzardVehicle"] = true,
-			["focuscastmodifier"] = false,
+			["snapping"] = false,
 			["outofrange"] = "hotkey",
 		},
 		["Draaminyok - Tichondrius"] = {

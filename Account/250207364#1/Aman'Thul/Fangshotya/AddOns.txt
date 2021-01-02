@@ -167,3 +167,4 @@ MythicDungeonTools: enabled
 RareScanner: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+VenturedUI: disabled

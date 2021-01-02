@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
-			},
-			["ChatFrame3EditBox"] = {
+			["ChatFrame9EditBox"] = {
 			},
 			["ChatFrame2EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
 			},
 		},
 	},
@@ -206,7 +206,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 18,
+			["headIndex"] = 7,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -219,203 +219,70 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[22:21:18]|h|r Guild Message of the Day: \"Finish the campaign and hit level 60 to choose a covenant! If you have any questions never be afraid to ask.\"",
-					["serverTime"] = 1606542912,
+					["message"] = "|cFFFFFFAAPlater|r  Applied Update to Script: Unit - Health Markers",
+					["timestamp"] = 28715.856,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:34:51]|h|r |cFF00FF00[RareScanner]: |cFFFFFFFFloaded",
+					["timestamp"] = 28715.856,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:34:51]|h|r |cFFFFFF00 SunnArt |r:  Loaded  -  Type \"/sa\" to open options or \"/sa help\" for console commands",
+					["timestamp"] = 28715.856,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:34:59]|h|r Guild Message of the Day: \"MERRY CHRISTMAS. We need Spinefin pranha, Siverrgill Pike, Tenebrous Ribs and Phantasnal Haunch for feasts. Herbs to Stardreamer for cauldron!\"",
 					["r"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-					["timestamp"] = 36528.216,
 					["extraData"] = {
 						5, -- [1]
 						["n"] = 1,
 					},
+					["timestamp"] = 28724.903,
 					["g"] = 1,
-				}, -- [1]
+					["b"] = 0.250980406999588,
+				}, -- [4]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[22:21:20]|h|r Loot Specialization set to: Retribution",
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[19:35:01]|h|r Loot Specialization set to: Retribution",
+					["serverTime"] = 1608878100,
 					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 36528.216,
-					["serverTime"] = 1606468881,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[22:21:24]|h|r Quest accepted: A Sound Defense",
-					["b"] = 0,
-					["r"] = 1,
+					["timestamp"] = 28726.211,
 					["g"] = 1,
-					["timestamp"] = 36528.216,
-					["serverTime"] = 1606468885,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:36:19]|h|r Miri Fiddlewizz says: Don't trust gnomish inventions from any other source! My competitors are frauds!",
+					["serverTime"] = 1608878178,
+					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						13, -- [1]
 						false, -- [2]
 						1, -- [3]
 						2, -- [4]
 						["n"] = 4,
 					},
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[22:21:28]|h|r Highlord Darion Mograine says: Champion, the veil between our world and the Shadowlands has been sundered.",
+					["timestamp"] = 28805.102,
+					["g"] = 1,
 					["b"] = 0.6235294342041016,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 36528.216,
-					["serverTime"] = 1606468889,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-				}, -- [4]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[22:21:35]|h|r Highlord Darion Mograine says: The Ebon Blade stands ready. I await you in Stormwind. Come, before the icy grasp of Death claims all of Azeroth.",
-					["b"] = 0.6235294342041016,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 36528.216,
-					["serverTime"] = 1606468896,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-				}, -- [5]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[22:21:35]|h|r Guild Message of the Day: \"Finish the campaign and hit level 60 to choose a covenant! If you have any questions never be afraid to ask.\"",
-					["b"] = 0.250980406999588,
-					["r"] = 0.250980406999588,
-					["g"] = 1,
-					["timestamp"] = 36528.216,
-					["serverTime"] = 1606468896,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
 				}, -- [6]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[22:21:40]|h|r Miri Fiddlewizz says: Most reliable inventions in all of Tiragarde, and that's a fact!",
-					["b"] = 0.6235294342041016,
+					["message"] = "|cff979797|Hpratcopy|h[19:36:20]|h|r Sara Bartlett says: Quality spices from around Azeroth!",
+					["serverTime"] = 1608878179,
 					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 36528.216,
-					["serverTime"] = 1606468901,
 					["extraData"] = {
 						13, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
+					["timestamp"] = 28805.758,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
 				}, -- [7]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[22:21:41]|h|r Guild Message of the Day: \"Finish the campaign and hit level 60 to choose a covenant! If you have any questions never be afraid to ask.\"",
-					["b"] = 0.250980406999588,
-					["r"] = 0.250980406999588,
-					["g"] = 1,
-					["timestamp"] = 36528.216,
-					["serverTime"] = 1606468902,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-				}, -- [8]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[22:22:07]|h|r Guild Message of the Day: \"Finish the campaign and hit level 60 to choose a covenant! If you have any questions never be afraid to ask. Guild Bank will be cleared out tomorrow, take anything you want out before then (except SL stuff)\"",
-					["b"] = 0.250980406999588,
-					["r"] = 0.250980406999588,
-					["g"] = 1,
-					["timestamp"] = 36528.216,
-					["serverTime"] = 1606468928,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-				}, -- [9]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[22:22:12]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Boralus Harbor]|h",
-					["b"] = 0.7529412508010864,
-					["r"] = 1,
-					["g"] = 0.7529412508010864,
-					["timestamp"] = 36528.216,
-					["serverTime"] = 1606468933,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						5, -- [3]
-						6, -- [4]
-						["n"] = 4,
-					},
-				}, -- [10]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[22:22:12]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
-					["b"] = 0.7529412508010864,
-					["r"] = 1,
-					["g"] = 0.7529412508010864,
-					["timestamp"] = 36528.216,
-					["serverTime"] = 1606468933,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						8, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-				}, -- [11]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[22:22:12]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Boralus Harbor]|h",
-					["b"] = 0.7529412508010864,
-					["r"] = 1,
-					["g"] = 0.7529412508010864,
-					["timestamp"] = 36528.216,
-					["serverTime"] = 1606468933,
-					["extraData"] = {
-						69, -- [1]
-						false, -- [2]
-						11, -- [3]
-						12, -- [4]
-						["n"] = 4,
-					},
-				}, -- [12]
-				{
-					["message"] = "0 |4day:days;, 20 |4hour:hours;, 32 |4minute:minutes;, 59 |4second:seconds;",
-					["timestamp"] = 36528.216,
-				}, -- [13]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 36528.216,
-				}, -- [14]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[18:55:03]|h|r |cFF00FF00[RareScanner]: |cFFFFFFFFloaded",
-					["timestamp"] = 36519.772,
-				}, -- [15]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[18:55:03]|h|r |cFFFFFF00 SunnArt |r:  Loaded  -  Type \"/sa\" to open options or \"/sa help\" for console commands",
-					["timestamp"] = 36519.772,
-				}, -- [16]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[18:55:10]|h|r |cffffaeaeDetails!:|r use '/details me' macro to open the player breakdown for you!    ",
-					["timestamp"] = 36528.216,
-					["serverTime"] = 1606542912,
-				}, -- [17]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[18:55:11]|h|r Loot Specialization set to: Retribution",
-					["serverTime"] = 1606542913,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 36528.216,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [18]
 			},
 			["maxElements"] = 5000,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],

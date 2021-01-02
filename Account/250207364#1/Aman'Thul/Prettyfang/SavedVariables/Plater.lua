@@ -8,8 +8,8 @@ PlaterDBChr = {
 	["buffsBanned"] = {
 	},
 	["first_run3"] = {
-		["Player-3722-088E2052"] = true,
 		["Player-3726-0BB72CB0"] = true,
+		["Player-3722-088E2052"] = true,
 	},
 	["spellRangeCheck"] = {
 		[70] = "Hand of Reckoning",

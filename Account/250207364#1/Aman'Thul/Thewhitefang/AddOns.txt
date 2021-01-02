@@ -166,3 +166,4 @@ oUF_Lybrial: disabled
 AstralKeys: enabled
 MythicDungeonTools: enabled
 RareScanner: enabled
+VenturedUI: disabled
